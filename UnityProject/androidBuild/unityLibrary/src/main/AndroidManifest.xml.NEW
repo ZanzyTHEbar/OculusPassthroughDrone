@@ -16,7 +16,7 @@
     <meta-data android:name="unity.splash-enable" android:value="True" />
     <meta-data android:name="unity.allow-resizable-window" android:value="True" />
     <meta-data android:name="notch.config" android:value="portrait|landscape" />
-    <meta-data android:name="unity.build-id" android:value="bb6b1477-eda0-43e0-83fd-226907d2b09c" />
+    <meta-data android:name="unity.build-id" android:value="10cf00c7-5efe-47c8-98ee-334fa6341d85" />
   </application>
   <uses-feature android:name="android.hardware.vr.headtracking" android:version="1" android:required="true" />
   <uses-permission android:name="android.permission.INTERNET" />

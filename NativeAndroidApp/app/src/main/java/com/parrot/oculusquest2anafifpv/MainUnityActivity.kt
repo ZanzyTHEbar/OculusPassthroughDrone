@@ -1,42 +1,45 @@
 package com.parrot.oculusquest2anafifpv
 
+import android.content.Intent
+import android.os.Bundle
 import android.widget.Button
-import com.PrometheonTechnologies.OculusAnafiFPV.OverrideUnityActivity
+import android.widget.FrameLayout
+import com.company.product.OverrideUnityActivity
 
-class MainUnityActivity : OverrideUnityActivity() {
+open class MainUnityActivity : OverrideUnityActivity() {
     // Setup activity layout
-    protected fun onCreate(savedInstanceState: Bundle?) {
+    override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         addControlsToUnityFrame()
-        val intent: Intent = getIntent()
+        val intent: Intent = intent
         handleIntent(intent)
     }
 
-    protected fun onNewIntent(intent: Intent?) {
+    override fun onNewIntent(intent: Intent?) {
         super.onNewIntent(intent)
         handleIntent(intent)
         setIntent(intent)
     }
 
-    fun handleIntent(intent: Intent?) {
-        if (intent == null || intent.getExtras() == null) return
-        if (intent.getExtras().containsKey("doQuit")) if (mUnityPlayer != null) {
+    private fun handleIntent(intent: Intent?) {
+        if (intent?.extras == null) return
+        if (intent.extras!!.containsKey("doQuit")) if (mUnityPlayer != null) {
             finish()
         }
     }
 
-    protected fun showMainActivity(setToColor: String?) {
-        val intent = Intent(this, MainActivity::class.java)
-        intent.setFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT or Intent.FLAG_ACTIVITY_SINGLE_TOP)
+    override fun showMainActivity(setToColor: String?) {
+        val intent = Intent(this, MainDroneActivity::class.java)
+        intent.flags = Intent.FLAG_ACTIVITY_REORDER_TO_FRONT or Intent.FLAG_ACTIVITY_SINGLE_TOP
         intent.putExtra("setColor", setToColor)
         startActivity(intent)
     }
 
-    fun onUnityPlayerUnloaded() {
+    override fun onUnityPlayerUnloaded() {
         showMainActivity("")
     }
 
-    fun addControlsToUnityFrame() {
+    private fun addControlsToUnityFrame() {
         val layout: FrameLayout = mUnityPlayer
         run {
             val myButton = Button(this)
@@ -70,12 +73,5 @@ class MainUnityActivity : OverrideUnityActivity() {
             myButton.setOnClickListener { finish() }
             layout.addView(myButton, 300, 200)
         }
-    }
-
-    fun onBackPressed() {
-        if (mUnityPlayer != null) {
-            mUnityPlayer.UnitySendMessage("Cube", "ChangeColor", "red")
-        }
-        super.onBackPressed()
     }
 }
