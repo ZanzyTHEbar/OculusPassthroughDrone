@@ -1,4 +1,4 @@
-﻿using DilmerGames.Core.Singletons;
+﻿using prometheontechnologies.Core.Singletons;
 using System;
 using System.Collections.Generic;
 using System.Linq;

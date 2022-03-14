@@ -1,4 +1,4 @@
-﻿public class DroneReponse
+﻿public class DroneResponse
 {
     public DroneCommand Command { get; set; }
 

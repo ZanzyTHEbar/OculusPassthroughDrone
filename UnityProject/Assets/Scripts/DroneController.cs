@@ -1,4 +1,4 @@
-using DilmerGames.Core.Singletons;
+using prometheontechnologies.Core.Singletons;
 using UnityEngine;
 
 public class DroneController : Singleton<DroneController>

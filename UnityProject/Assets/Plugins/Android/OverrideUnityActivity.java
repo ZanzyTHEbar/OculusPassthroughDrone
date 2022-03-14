@@ -1,4 +1,4 @@
-package com.company.product;
+package com.prometheontechnologies.oculusquestanafifpv;
 import android.os.Bundle;
 import android.widget.FrameLayout;
 
