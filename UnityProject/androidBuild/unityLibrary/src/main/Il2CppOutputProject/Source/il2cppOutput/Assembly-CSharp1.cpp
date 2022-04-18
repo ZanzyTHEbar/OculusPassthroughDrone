@@ -241,10 +241,10 @@ struct List_1_tE7A3E65EF4EFEB8E88A946737890AE19BB382B79;
 struct List_1_t2DE3B74946EBD10D047A5D64DF04DE92A3B067D8;
 // System.Collections.Generic.List`1<OVRSkeletonRenderer/CapsuleVisualization>
 struct List_1_t89FE3B3C624BEEC726B8850113C0F37A0D0CF8FF;
-// DilmerGames.Core.Singletons.Singleton`1<Logger>
-struct Singleton_1_t4F9095F8D4CC82341BCE309822DDFC5E0D0CD27B;
-// DilmerGames.Core.Singletons.Singleton`1<System.Object>
-struct Singleton_1_t2E3677EC4D15F07D2515C903BE265814608A3EFA;
+// prometheontechnologies.Core.Singletons.Singleton`1<Logger>
+struct Singleton_1_t84C00040F79616CF859CF17E33B2C2EFE7F39482;
+// prometheontechnologies.Core.Singletons.Singleton`1<System.Object>
+struct Singleton_1_tF788628E4542A19F80B248DABD8ACE3EC432AC14;
 // UnityEngine.UI.CoroutineTween.TweenRunner`1<UnityEngine.UI.CoroutineTween.ColorTween>
 struct TweenRunner_1_tD84B9953874682FCC36990AF2C54D748293908F3;
 // UnityEngine.Events.UnityAction`1<System.Object>
@@ -1081,7 +1081,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* Object_Instantiate_TisGameObject_tC000A2E1A
 IL2CPP_EXTERN_C const RuntimeMethod* Object_Instantiate_TisGameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319_mF131D53AB04E75E849487A7ACF79A8B27527F4B8_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Object_Instantiate_TisTeleportDestination_t1DCC2BDB675ACE76D915FE7251B4CB6C487811DA_mCA333A32E9C1ACCCA2C221604A1AD9B49A741A3A_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Object_Instantiate_TisTransform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1_m590D55CDD380D61B8E49847623BD97E6EA9D9762_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Singleton_1__ctor_mAE55E8598276EEFF8AD3DDCE7710AA51C35A916F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Singleton_1__ctor_m702F7DE3885B002AE830AEE290A6075B914FC5AE_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CStartU3Eb__28_0_m982333D324DA5B0E763CCC459B17E62E62201591_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass34_0_U3CPlayU3Eb__0_mA90EE1D1E1F6E42A47F0488801D4A7734840FD4C_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* UnityAction_1__ctor_m8CACADCAC18230FB18DF7A6BEC3D9EAD93FEDC3B_RuntimeMethod_var;
@@ -13811,22 +13811,22 @@ public:
 };
 
 
-// DilmerGames.Core.Singletons.Singleton`1<Logger>
-struct Singleton_1_t4F9095F8D4CC82341BCE309822DDFC5E0D0CD27B  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
+// prometheontechnologies.Core.Singletons.Singleton`1<Logger>
+struct Singleton_1_t84C00040F79616CF859CF17E33B2C2EFE7F39482  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
 {
 public:
 
 public:
 };
 
-struct Singleton_1_t4F9095F8D4CC82341BCE309822DDFC5E0D0CD27B_StaticFields
+struct Singleton_1_t84C00040F79616CF859CF17E33B2C2EFE7F39482_StaticFields
 {
 public:
-	// T DilmerGames.Core.Singletons.Singleton`1::_instance
+	// T prometheontechnologies.Core.Singletons.Singleton`1::_instance
 	Logger_t7A883ED908F6CC770EC675698C1A37CBD753667A * ____instance_4;
 
 public:
-	inline static int32_t get_offset_of__instance_4() { return static_cast<int32_t>(offsetof(Singleton_1_t4F9095F8D4CC82341BCE309822DDFC5E0D0CD27B_StaticFields, ____instance_4)); }
+	inline static int32_t get_offset_of__instance_4() { return static_cast<int32_t>(offsetof(Singleton_1_t84C00040F79616CF859CF17E33B2C2EFE7F39482_StaticFields, ____instance_4)); }
 	inline Logger_t7A883ED908F6CC770EC675698C1A37CBD753667A * get__instance_4() const { return ____instance_4; }
 	inline Logger_t7A883ED908F6CC770EC675698C1A37CBD753667A ** get_address_of__instance_4() { return &____instance_4; }
 	inline void set__instance_4(Logger_t7A883ED908F6CC770EC675698C1A37CBD753667A * value)
@@ -20766,7 +20766,7 @@ public:
 
 
 // Logger
-struct Logger_t7A883ED908F6CC770EC675698C1A37CBD753667A  : public Singleton_1_t4F9095F8D4CC82341BCE309822DDFC5E0D0CD27B
+struct Logger_t7A883ED908F6CC770EC675698C1A37CBD753667A  : public Singleton_1_t84C00040F79616CF859CF17E33B2C2EFE7F39482
 {
 public:
 	// TMPro.TextMeshProUGUI Logger::debugAreaText
@@ -26676,8 +26676,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_4_Invoke_m84C31B2E1EC6CD2F5D68991
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_3_Invoke_m7134E4FE2A10706F3142910A27BCC8438784649E_gshared (Action_3_t830214C466BEF8EF84EB5949E53465EDA7B5E3E0 * __this, RuntimeObject * ___arg10, Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  ___arg21, Quaternion_t6D28618CF65156D4A0AD747370DDFD0C514A31B4  ___arg32, const RuntimeMethod* method);
 // System.Int32 System.Linq.Enumerable::Count<System.Object>(System.Collections.Generic.IEnumerable`1<!!0>)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Enumerable_Count_TisRuntimeObject_mF35F8B37C78D02C08BB4F806038CA6EDE548A6B5_gshared (RuntimeObject* ___source0, const RuntimeMethod* method);
-// System.Void DilmerGames.Core.Singletons.Singleton`1<System.Object>::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Singleton_1__ctor_m74AD24D9E9146F7739577D4A044A5C297852D062_gshared (Singleton_1_t2E3677EC4D15F07D2515C903BE265814608A3EFA * __this, const RuntimeMethod* method);
+// System.Void prometheontechnologies.Core.Singletons.Singleton`1<System.Object>::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Singleton_1__ctor_mA43BA95158B1EBE7A454379A58B175EA7537BDEC_gshared (Singleton_1_tF788628E4542A19F80B248DABD8ACE3EC432AC14 * __this, const RuntimeMethod* method);
 // System.Void UnityEngine.Events.UnityAction`1<System.Single>::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAction_1__ctor_m8CACADCAC18230FB18DF7A6BEC3D9EAD93FEDC3B_gshared (UnityAction_1_t50101DC7058B3235A520FF57E827D51694843FBB * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method);
 // System.Void UnityEngine.Events.UnityEvent`1<System.Single>::AddListener(UnityEngine.Events.UnityAction`1<!0>)
@@ -27629,10 +27629,10 @@ inline int32_t Enumerable_Count_TisString_t_m73DFA608B1C4B59DF24B8910F113F39B62F
 {
 	return ((  int32_t (*) (RuntimeObject*, const RuntimeMethod*))Enumerable_Count_TisRuntimeObject_mF35F8B37C78D02C08BB4F806038CA6EDE548A6B5_gshared)(___source0, method);
 }
-// System.Void DilmerGames.Core.Singletons.Singleton`1<Logger>::.ctor()
-inline void Singleton_1__ctor_mAE55E8598276EEFF8AD3DDCE7710AA51C35A916F (Singleton_1_t4F9095F8D4CC82341BCE309822DDFC5E0D0CD27B * __this, const RuntimeMethod* method)
+// System.Void prometheontechnologies.Core.Singletons.Singleton`1<Logger>::.ctor()
+inline void Singleton_1__ctor_m702F7DE3885B002AE830AEE290A6075B914FC5AE (Singleton_1_t84C00040F79616CF859CF17E33B2C2EFE7F39482 * __this, const RuntimeMethod* method)
 {
-	((  void (*) (Singleton_1_t4F9095F8D4CC82341BCE309822DDFC5E0D0CD27B *, const RuntimeMethod*))Singleton_1__ctor_m74AD24D9E9146F7739577D4A044A5C297852D062_gshared)(__this, method);
+	((  void (*) (Singleton_1_t84C00040F79616CF859CF17E33B2C2EFE7F39482 *, const RuntimeMethod*))Singleton_1__ctor_mA43BA95158B1EBE7A454379A58B175EA7537BDEC_gshared)(__this, method);
 }
 // UnityEngine.Rect UnityEngine.UI.Graphic::GetPixelAdjustedRect()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Rect_t7D9187DB6339DBA5741C09B6CCEF2F54F1966878  Graphic_GetPixelAdjustedRect_m97D803029E437D6E20057C7FBAF420532184D16C (Graphic_tF07D777035055CF93BA5F46F77ED5EDFEFF9AE24 * __this, const RuntimeMethod* method);
@@ -39165,12 +39165,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Logger__ctor_mF88527BE572C2A025B1844CA31
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Singleton_1__ctor_mAE55E8598276EEFF8AD3DDCE7710AA51C35A916F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Singleton_1__ctor_m702F7DE3885B002AE830AEE290A6075B914FC5AE_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
 		__this->set_maxLines_7(((int32_t)15));
-		Singleton_1__ctor_mAE55E8598276EEFF8AD3DDCE7710AA51C35A916F(__this, /*hidden argument*/Singleton_1__ctor_mAE55E8598276EEFF8AD3DDCE7710AA51C35A916F_RuntimeMethod_var);
+		Singleton_1__ctor_m702F7DE3885B002AE830AEE290A6075B914FC5AE(__this, /*hidden argument*/Singleton_1__ctor_m702F7DE3885B002AE830AEE290A6075B914FC5AE_RuntimeMethod_var);
 		return;
 	}
 }

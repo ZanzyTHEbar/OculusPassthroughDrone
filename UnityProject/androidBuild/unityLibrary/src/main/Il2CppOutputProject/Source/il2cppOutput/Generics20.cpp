@@ -341,8 +341,8 @@ struct Segment_t1DC222CB47EC912CABDA59DB9093C3EAC5B81C6E;
 struct Shared_1_t333C4F81656CB6CBFC971E543F8E9995A08F400B;
 // System.Threading.Tasks.Shared`1<System.Object>
 struct Shared_1_t9CD470164021C8F0989F8E21A955B5B9AE6CA05C;
-// DilmerGames.Core.Singletons.Singleton`1<System.Object>
-struct Singleton_1_t2E3677EC4D15F07D2515C903BE265814608A3EFA;
+// prometheontechnologies.Core.Singletons.Singleton`1<System.Object>
+struct Singleton_1_tF788628E4542A19F80B248DABD8ACE3EC432AC14;
 // Oculus.Interaction.HandPosing.SnapAddress`1<System.Object>
 struct SnapAddress_1_t848E449DF04C677ADB7B1F220B28AA73050119C2;
 // System.Collections.Generic.SortedDictionary`2<System.Int32,System.Object>
@@ -7929,22 +7929,22 @@ public:
 };
 
 
-// DilmerGames.Core.Singletons.Singleton`1<System.Object>
-struct Singleton_1_t2E3677EC4D15F07D2515C903BE265814608A3EFA  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
+// prometheontechnologies.Core.Singletons.Singleton`1<System.Object>
+struct Singleton_1_tF788628E4542A19F80B248DABD8ACE3EC432AC14  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
 {
 public:
 
 public:
 };
 
-struct Singleton_1_t2E3677EC4D15F07D2515C903BE265814608A3EFA_StaticFields
+struct Singleton_1_tF788628E4542A19F80B248DABD8ACE3EC432AC14_StaticFields
 {
 public:
-	// T DilmerGames.Core.Singletons.Singleton`1::_instance
+	// T prometheontechnologies.Core.Singletons.Singleton`1::_instance
 	RuntimeObject * ____instance_4;
 
 public:
-	inline static int32_t get_offset_of__instance_4() { return static_cast<int32_t>(offsetof(Singleton_1_t2E3677EC4D15F07D2515C903BE265814608A3EFA_StaticFields, ____instance_4)); }
+	inline static int32_t get_offset_of__instance_4() { return static_cast<int32_t>(offsetof(Singleton_1_tF788628E4542A19F80B248DABD8ACE3EC432AC14_StaticFields, ____instance_4)); }
 	inline RuntimeObject * get__instance_4() const { return ____instance_4; }
 	inline RuntimeObject ** get_address_of__instance_4() { return &____instance_4; }
 	inline void set__instance_4(RuntimeObject * value)
@@ -22568,8 +22568,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Shared_1__ctor_m7DC8FFEC854851906F8DB91B
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// T DilmerGames.Core.Singletons.Singleton`1<System.Object>::get_Instance()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * Singleton_1_get_Instance_m3040A53D74EE45003BB35B43E649B6282101A30D_gshared (const RuntimeMethod* method)
+// T prometheontechnologies.Core.Singletons.Singleton`1<System.Object>::get_Instance()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * Singleton_1_get_Instance_m84F70FB61438AC138EA8EF4E089A7CCFE5E1D84B_gshared (const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -22585,7 +22585,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * Singleton_1_get_Instance_m304
 	}
 	ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* V_0 = NULL;
 	{
-		RuntimeObject * L_0 = ((Singleton_1_t2E3677EC4D15F07D2515C903BE265814608A3EFA_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 0)))->get__instance_4();
+		RuntimeObject * L_0 = ((Singleton_1_tF788628E4542A19F80B248DABD8ACE3EC432AC14_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 0)))->get__instance_4();
 		IL2CPP_RUNTIME_CLASS_INIT(Object_tF2F3778131EFF286AF62B7B013A170F95A91571A_il2cpp_TypeInfo_var);
 		bool L_1;
 		L_1 = Object_op_Equality_mEE9EC7EB5C7DC3E95B94AB904E1986FC4D566D54((Object_tF2F3778131EFF286AF62B7B013A170F95A91571A *)L_0, (Object_tF2F3778131EFF286AF62B7B013A170F95A91571A *)NULL, /*hidden argument*/NULL);
@@ -22615,7 +22615,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * Singleton_1_get_Instance_m304
 		NullCheck(L_6);
 		int32_t L_7 = 0;
 		RuntimeObject * L_8 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_7));
-		((Singleton_1_t2E3677EC4D15F07D2515C903BE265814608A3EFA_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 0)))->set__instance_4(L_8);
+		((Singleton_1_tF788628E4542A19F80B248DABD8ACE3EC432AC14_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 0)))->set__instance_4(L_8);
 	}
 
 IL_003a:
@@ -22643,7 +22643,7 @@ IL_003a:
 
 IL_0063:
 	{
-		RuntimeObject * L_14 = ((Singleton_1_t2E3677EC4D15F07D2515C903BE265814608A3EFA_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 0)))->get__instance_4();
+		RuntimeObject * L_14 = ((Singleton_1_tF788628E4542A19F80B248DABD8ACE3EC432AC14_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 0)))->get__instance_4();
 		IL2CPP_RUNTIME_CLASS_INIT(Object_tF2F3778131EFF286AF62B7B013A170F95A91571A_il2cpp_TypeInfo_var);
 		bool L_15;
 		L_15 = Object_op_Equality_mEE9EC7EB5C7DC3E95B94AB904E1986FC4D566D54((Object_tF2F3778131EFF286AF62B7B013A170F95A91571A *)L_14, (Object_tF2F3778131EFF286AF62B7B013A170F95A91571A *)NULL, /*hidden argument*/NULL);
@@ -22670,17 +22670,17 @@ IL_0063:
 		NullCheck((GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 *)L_17);
 		RuntimeObject * L_22;
 		L_22 = ((  RuntimeObject * (*) (GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 4)->methodPointer)((GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 *)L_17, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 4));
-		((Singleton_1_t2E3677EC4D15F07D2515C903BE265814608A3EFA_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 0)))->set__instance_4(L_22);
+		((Singleton_1_tF788628E4542A19F80B248DABD8ACE3EC432AC14_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 0)))->set__instance_4(L_22);
 	}
 
 IL_00a3:
 	{
-		RuntimeObject * L_23 = ((Singleton_1_t2E3677EC4D15F07D2515C903BE265814608A3EFA_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 0)))->get__instance_4();
+		RuntimeObject * L_23 = ((Singleton_1_tF788628E4542A19F80B248DABD8ACE3EC432AC14_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 0)))->get__instance_4();
 		return (RuntimeObject *)L_23;
 	}
 }
-// System.Void DilmerGames.Core.Singletons.Singleton`1<System.Object>::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Singleton_1__ctor_m74AD24D9E9146F7739577D4A044A5C297852D062_gshared (Singleton_1_t2E3677EC4D15F07D2515C903BE265814608A3EFA * __this, const RuntimeMethod* method)
+// System.Void prometheontechnologies.Core.Singletons.Singleton`1<System.Object>::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Singleton_1__ctor_mA43BA95158B1EBE7A454379A58B175EA7537BDEC_gshared (Singleton_1_tF788628E4542A19F80B248DABD8ACE3EC432AC14 * __this, const RuntimeMethod* method)
 {
 	{
 		NullCheck((MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A *)__this);

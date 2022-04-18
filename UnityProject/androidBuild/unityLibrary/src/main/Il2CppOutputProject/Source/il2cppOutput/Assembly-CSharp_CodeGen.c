@@ -2053,16 +2053,16 @@ extern void DroneRequest_get_Payload_m62F6FD644951E95CD0174A0FF06880ECD3CA66B0 (
 extern void DroneRequest_set_Payload_mCC6117E92BC4EA46D8735A6B348E9B2B5AA7EFF6 (void);
 // 0x00000407 System.Void DroneRequest::.ctor()
 extern void DroneRequest__ctor_m58F71258D63D63A842FEF5C995D45178CC535134 (void);
-// 0x00000408 DroneCommand DroneReponse::get_Command()
-extern void DroneReponse_get_Command_m48521AD34B1F75DA425C552E73147E0C2ACBF437 (void);
-// 0x00000409 System.Void DroneReponse::set_Command(DroneCommand)
-extern void DroneReponse_set_Command_m457C0EE06430A7ADE91301E044512ED4B27ACEF2 (void);
-// 0x0000040A System.String DroneReponse::get_Response()
-extern void DroneReponse_get_Response_mA2549404377101370DAF6BEE804646174ED76423 (void);
-// 0x0000040B System.Void DroneReponse::set_Response(System.String)
-extern void DroneReponse_set_Response_m78B7D5A53541128FEAD02885C49247410CE65E01 (void);
-// 0x0000040C System.Void DroneReponse::.ctor()
-extern void DroneReponse__ctor_m7E0F005DAAA132D8A017750EE2DB1576CA9A3C38 (void);
+// 0x00000408 DroneCommand DroneResponse::get_Command()
+extern void DroneResponse_get_Command_mE5FB390F6DDAC59D0E3948258FD822F03259E7D6 (void);
+// 0x00000409 System.Void DroneResponse::set_Command(DroneCommand)
+extern void DroneResponse_set_Command_mBA31BD39A3C76B7EE1A58EFD4EE39088D26ECA21 (void);
+// 0x0000040A System.String DroneResponse::get_Response()
+extern void DroneResponse_get_Response_mFB5E7ACAFFD8323E3D0264AC93A0D4A90ECB5D13 (void);
+// 0x0000040B System.Void DroneResponse::set_Response(System.String)
+extern void DroneResponse_set_Response_m743250E7DA3F826DB39716425FBE17EA1BCA273B (void);
+// 0x0000040C System.Void DroneResponse::.ctor()
+extern void DroneResponse__ctor_mCFA1CC5C1F754713497A987B3DAB0B194A8D9510 (void);
 // 0x0000040D System.Void DroneStats::.ctor()
 extern void DroneStats__ctor_m243AE4FB20680B2B24216D2E7D7ECF4C65162E99 (void);
 // 0x0000040E System.Void Logger::Awake()
@@ -2259,8 +2259,8 @@ extern void DronePilotOverlay_Awake_m473FA93046A9F49D543DB239F2A900870A9D3F46 (v
 extern void DronePilotOverlay_OnDestroy_m93494E00B8F0E0EC206ACA09A6A2E21BEDEB8ADA (void);
 // 0x00000470 System.Void DronePilotOverlay::.ctor()
 extern void DronePilotOverlay__ctor_m34DFD37CD91F3CA1425FEB46E43B66F996BC263E (void);
-// 0x00000471 T DilmerGames.Core.Singletons.Singleton`1::get_Instance()
-// 0x00000472 System.Void DilmerGames.Core.Singletons.Singleton`1::.ctor()
+// 0x00000471 T prometheontechnologies.Core.Singletons.Singleton`1::get_Instance()
+// 0x00000472 System.Void prometheontechnologies.Core.Singletons.Singleton`1::.ctor()
 // 0x00000473 System.Boolean OculusSampleFramework.ColorGrabbable::get_Highlight()
 extern void ColorGrabbable_get_Highlight_mEE9A5BC6077D6415C0F5AAEBF9268BCEDA9192CB (void);
 // 0x00000474 System.Void OculusSampleFramework.ColorGrabbable::set_Highlight(System.Boolean)
@@ -4567,11 +4567,11 @@ static Il2CppMethodPointer s_methodPointers[1785] =
 	DroneRequest_get_Payload_m62F6FD644951E95CD0174A0FF06880ECD3CA66B0,
 	DroneRequest_set_Payload_mCC6117E92BC4EA46D8735A6B348E9B2B5AA7EFF6,
 	DroneRequest__ctor_m58F71258D63D63A842FEF5C995D45178CC535134,
-	DroneReponse_get_Command_m48521AD34B1F75DA425C552E73147E0C2ACBF437,
-	DroneReponse_set_Command_m457C0EE06430A7ADE91301E044512ED4B27ACEF2,
-	DroneReponse_get_Response_mA2549404377101370DAF6BEE804646174ED76423,
-	DroneReponse_set_Response_m78B7D5A53541128FEAD02885C49247410CE65E01,
-	DroneReponse__ctor_m7E0F005DAAA132D8A017750EE2DB1576CA9A3C38,
+	DroneResponse_get_Command_mE5FB390F6DDAC59D0E3948258FD822F03259E7D6,
+	DroneResponse_set_Command_mBA31BD39A3C76B7EE1A58EFD4EE39088D26ECA21,
+	DroneResponse_get_Response_mFB5E7ACAFFD8323E3D0264AC93A0D4A90ECB5D13,
+	DroneResponse_set_Response_m743250E7DA3F826DB39716425FBE17EA1BCA273B,
+	DroneResponse__ctor_mCFA1CC5C1F754713497A987B3DAB0B194A8D9510,
 	DroneStats__ctor_m243AE4FB20680B2B24216D2E7D7ECF4C65162E99,
 	Logger_Awake_m19D19AB49D5E03E930440AC53D80FCF1EE17B2CA,
 	Logger_OnEnable_m705575F44764F82DA6DDA16B13ECF10A76079B40,

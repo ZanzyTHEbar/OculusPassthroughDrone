@@ -25788,35 +25788,6 @@ public:
 };
 
 
-// DroneReponse
-struct DroneReponse_t5F58B27402A5900762136569D56E06C3981F07CC  : public RuntimeObject
-{
-public:
-	// DroneCommand DroneReponse::<Command>k__BackingField
-	int32_t ___U3CCommandU3Ek__BackingField_0;
-	// System.String DroneReponse::<Response>k__BackingField
-	String_t* ___U3CResponseU3Ek__BackingField_1;
-
-public:
-	inline static int32_t get_offset_of_U3CCommandU3Ek__BackingField_0() { return static_cast<int32_t>(offsetof(DroneReponse_t5F58B27402A5900762136569D56E06C3981F07CC, ___U3CCommandU3Ek__BackingField_0)); }
-	inline int32_t get_U3CCommandU3Ek__BackingField_0() const { return ___U3CCommandU3Ek__BackingField_0; }
-	inline int32_t* get_address_of_U3CCommandU3Ek__BackingField_0() { return &___U3CCommandU3Ek__BackingField_0; }
-	inline void set_U3CCommandU3Ek__BackingField_0(int32_t value)
-	{
-		___U3CCommandU3Ek__BackingField_0 = value;
-	}
-
-	inline static int32_t get_offset_of_U3CResponseU3Ek__BackingField_1() { return static_cast<int32_t>(offsetof(DroneReponse_t5F58B27402A5900762136569D56E06C3981F07CC, ___U3CResponseU3Ek__BackingField_1)); }
-	inline String_t* get_U3CResponseU3Ek__BackingField_1() const { return ___U3CResponseU3Ek__BackingField_1; }
-	inline String_t** get_address_of_U3CResponseU3Ek__BackingField_1() { return &___U3CResponseU3Ek__BackingField_1; }
-	inline void set_U3CResponseU3Ek__BackingField_1(String_t* value)
-	{
-		___U3CResponseU3Ek__BackingField_1 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___U3CResponseU3Ek__BackingField_1), (void*)value);
-	}
-};
-
-
 // DroneRequest
 struct DroneRequest_tDF17E6459A5F9608633FD36E90EDEAA2A454D2F6  : public RuntimeObject
 {
@@ -25852,6 +25823,35 @@ public:
 	inline void set_U3CCommandU3Ek__BackingField_2(int32_t value)
 	{
 		___U3CCommandU3Ek__BackingField_2 = value;
+	}
+};
+
+
+// DroneResponse
+struct DroneResponse_t4A3A44B9B0B02E3A4270903297CE39EE2BEA3B61  : public RuntimeObject
+{
+public:
+	// DroneCommand DroneResponse::<Command>k__BackingField
+	int32_t ___U3CCommandU3Ek__BackingField_0;
+	// System.String DroneResponse::<Response>k__BackingField
+	String_t* ___U3CResponseU3Ek__BackingField_1;
+
+public:
+	inline static int32_t get_offset_of_U3CCommandU3Ek__BackingField_0() { return static_cast<int32_t>(offsetof(DroneResponse_t4A3A44B9B0B02E3A4270903297CE39EE2BEA3B61, ___U3CCommandU3Ek__BackingField_0)); }
+	inline int32_t get_U3CCommandU3Ek__BackingField_0() const { return ___U3CCommandU3Ek__BackingField_0; }
+	inline int32_t* get_address_of_U3CCommandU3Ek__BackingField_0() { return &___U3CCommandU3Ek__BackingField_0; }
+	inline void set_U3CCommandU3Ek__BackingField_0(int32_t value)
+	{
+		___U3CCommandU3Ek__BackingField_0 = value;
+	}
+
+	inline static int32_t get_offset_of_U3CResponseU3Ek__BackingField_1() { return static_cast<int32_t>(offsetof(DroneResponse_t4A3A44B9B0B02E3A4270903297CE39EE2BEA3B61, ___U3CResponseU3Ek__BackingField_1)); }
+	inline String_t* get_U3CResponseU3Ek__BackingField_1() const { return ___U3CResponseU3Ek__BackingField_1; }
+	inline String_t** get_address_of_U3CResponseU3Ek__BackingField_1() { return &___U3CResponseU3Ek__BackingField_1; }
+	inline void set_U3CResponseU3Ek__BackingField_1(String_t* value)
+	{
+		___U3CResponseU3Ek__BackingField_1 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U3CResponseU3Ek__BackingField_1), (void*)value);
 	}
 };
 
@@ -37647,22 +37647,22 @@ public:
 };
 
 
-// DilmerGames.Core.Singletons.Singleton`1<DroneActionMapping>
-struct Singleton_1_tB01F1C1A77F7A4456BD1B0F66CD0DA15276FA535  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
+// prometheontechnologies.Core.Singletons.Singleton`1<DroneActionMapping>
+struct Singleton_1_tC5597FDFEB160B71F259FC4B18B1E2F89A0EA83D  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
 {
 public:
 
 public:
 };
 
-struct Singleton_1_tB01F1C1A77F7A4456BD1B0F66CD0DA15276FA535_StaticFields
+struct Singleton_1_tC5597FDFEB160B71F259FC4B18B1E2F89A0EA83D_StaticFields
 {
 public:
-	// T DilmerGames.Core.Singletons.Singleton`1::_instance
+	// T prometheontechnologies.Core.Singletons.Singleton`1::_instance
 	DroneActionMapping_t797C7A50A606D5728C1ECC4F949BA8F680F5C04C * ____instance_4;
 
 public:
-	inline static int32_t get_offset_of__instance_4() { return static_cast<int32_t>(offsetof(Singleton_1_tB01F1C1A77F7A4456BD1B0F66CD0DA15276FA535_StaticFields, ____instance_4)); }
+	inline static int32_t get_offset_of__instance_4() { return static_cast<int32_t>(offsetof(Singleton_1_tC5597FDFEB160B71F259FC4B18B1E2F89A0EA83D_StaticFields, ____instance_4)); }
 	inline DroneActionMapping_t797C7A50A606D5728C1ECC4F949BA8F680F5C04C * get__instance_4() const { return ____instance_4; }
 	inline DroneActionMapping_t797C7A50A606D5728C1ECC4F949BA8F680F5C04C ** get_address_of__instance_4() { return &____instance_4; }
 	inline void set__instance_4(DroneActionMapping_t797C7A50A606D5728C1ECC4F949BA8F680F5C04C * value)
@@ -37673,22 +37673,22 @@ public:
 };
 
 
-// DilmerGames.Core.Singletons.Singleton`1<DroneClient>
-struct Singleton_1_t475F8C873A131F607CBF57651A6704D6ED4A9C3E  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
+// prometheontechnologies.Core.Singletons.Singleton`1<DroneClient>
+struct Singleton_1_t8CF900E26A51D619C673A82ED2C147D1BD1D026C  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
 {
 public:
 
 public:
 };
 
-struct Singleton_1_t475F8C873A131F607CBF57651A6704D6ED4A9C3E_StaticFields
+struct Singleton_1_t8CF900E26A51D619C673A82ED2C147D1BD1D026C_StaticFields
 {
 public:
-	// T DilmerGames.Core.Singletons.Singleton`1::_instance
+	// T prometheontechnologies.Core.Singletons.Singleton`1::_instance
 	DroneClient_tD1DCEB6EF9F62881A7644DF9412033F5B8D9FE66 * ____instance_4;
 
 public:
-	inline static int32_t get_offset_of__instance_4() { return static_cast<int32_t>(offsetof(Singleton_1_t475F8C873A131F607CBF57651A6704D6ED4A9C3E_StaticFields, ____instance_4)); }
+	inline static int32_t get_offset_of__instance_4() { return static_cast<int32_t>(offsetof(Singleton_1_t8CF900E26A51D619C673A82ED2C147D1BD1D026C_StaticFields, ____instance_4)); }
 	inline DroneClient_tD1DCEB6EF9F62881A7644DF9412033F5B8D9FE66 * get__instance_4() const { return ____instance_4; }
 	inline DroneClient_tD1DCEB6EF9F62881A7644DF9412033F5B8D9FE66 ** get_address_of__instance_4() { return &____instance_4; }
 	inline void set__instance_4(DroneClient_tD1DCEB6EF9F62881A7644DF9412033F5B8D9FE66 * value)
@@ -37699,22 +37699,22 @@ public:
 };
 
 
-// DilmerGames.Core.Singletons.Singleton`1<DroneController>
-struct Singleton_1_tB503F0E5272CE60C77B367D654FAA055606E7D30  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
+// prometheontechnologies.Core.Singletons.Singleton`1<DroneController>
+struct Singleton_1_t87194F4801804095FAA3DBB283476015CE2D0720  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
 {
 public:
 
 public:
 };
 
-struct Singleton_1_tB503F0E5272CE60C77B367D654FAA055606E7D30_StaticFields
+struct Singleton_1_t87194F4801804095FAA3DBB283476015CE2D0720_StaticFields
 {
 public:
-	// T DilmerGames.Core.Singletons.Singleton`1::_instance
+	// T prometheontechnologies.Core.Singletons.Singleton`1::_instance
 	DroneController_tFB53AA785BD95D3EB93804A1B28101EB2E32DCAD * ____instance_4;
 
 public:
-	inline static int32_t get_offset_of__instance_4() { return static_cast<int32_t>(offsetof(Singleton_1_tB503F0E5272CE60C77B367D654FAA055606E7D30_StaticFields, ____instance_4)); }
+	inline static int32_t get_offset_of__instance_4() { return static_cast<int32_t>(offsetof(Singleton_1_t87194F4801804095FAA3DBB283476015CE2D0720_StaticFields, ____instance_4)); }
 	inline DroneController_tFB53AA785BD95D3EB93804A1B28101EB2E32DCAD * get__instance_4() const { return ____instance_4; }
 	inline DroneController_tFB53AA785BD95D3EB93804A1B28101EB2E32DCAD ** get_address_of__instance_4() { return &____instance_4; }
 	inline void set__instance_4(DroneController_tFB53AA785BD95D3EB93804A1B28101EB2E32DCAD * value)
@@ -37725,22 +37725,22 @@ public:
 };
 
 
-// DilmerGames.Core.Singletons.Singleton`1<DroneStateManager>
-struct Singleton_1_t4239CBB335D82915E56C37B01100F142BEAB2797  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
+// prometheontechnologies.Core.Singletons.Singleton`1<DroneStateManager>
+struct Singleton_1_t2A559051A9FCC65AA259BBAC7A2EE21D911E618B  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
 {
 public:
 
 public:
 };
 
-struct Singleton_1_t4239CBB335D82915E56C37B01100F142BEAB2797_StaticFields
+struct Singleton_1_t2A559051A9FCC65AA259BBAC7A2EE21D911E618B_StaticFields
 {
 public:
-	// T DilmerGames.Core.Singletons.Singleton`1::_instance
+	// T prometheontechnologies.Core.Singletons.Singleton`1::_instance
 	DroneStateManager_t708A1FE66D25F0242A1C72E03546716B2FC68973 * ____instance_4;
 
 public:
-	inline static int32_t get_offset_of__instance_4() { return static_cast<int32_t>(offsetof(Singleton_1_t4239CBB335D82915E56C37B01100F142BEAB2797_StaticFields, ____instance_4)); }
+	inline static int32_t get_offset_of__instance_4() { return static_cast<int32_t>(offsetof(Singleton_1_t2A559051A9FCC65AA259BBAC7A2EE21D911E618B_StaticFields, ____instance_4)); }
 	inline DroneStateManager_t708A1FE66D25F0242A1C72E03546716B2FC68973 * get__instance_4() const { return ____instance_4; }
 	inline DroneStateManager_t708A1FE66D25F0242A1C72E03546716B2FC68973 ** get_address_of__instance_4() { return &____instance_4; }
 	inline void set__instance_4(DroneStateManager_t708A1FE66D25F0242A1C72E03546716B2FC68973 * value)
@@ -37751,22 +37751,22 @@ public:
 };
 
 
-// DilmerGames.Core.Singletons.Singleton`1<Logger>
-struct Singleton_1_t4F9095F8D4CC82341BCE309822DDFC5E0D0CD27B  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
+// prometheontechnologies.Core.Singletons.Singleton`1<Logger>
+struct Singleton_1_t84C00040F79616CF859CF17E33B2C2EFE7F39482  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
 {
 public:
 
 public:
 };
 
-struct Singleton_1_t4F9095F8D4CC82341BCE309822DDFC5E0D0CD27B_StaticFields
+struct Singleton_1_t84C00040F79616CF859CF17E33B2C2EFE7F39482_StaticFields
 {
 public:
-	// T DilmerGames.Core.Singletons.Singleton`1::_instance
+	// T prometheontechnologies.Core.Singletons.Singleton`1::_instance
 	Logger_t7A883ED908F6CC770EC675698C1A37CBD753667A * ____instance_4;
 
 public:
-	inline static int32_t get_offset_of__instance_4() { return static_cast<int32_t>(offsetof(Singleton_1_t4F9095F8D4CC82341BCE309822DDFC5E0D0CD27B_StaticFields, ____instance_4)); }
+	inline static int32_t get_offset_of__instance_4() { return static_cast<int32_t>(offsetof(Singleton_1_t84C00040F79616CF859CF17E33B2C2EFE7F39482_StaticFields, ____instance_4)); }
 	inline Logger_t7A883ED908F6CC770EC675698C1A37CBD753667A * get__instance_4() const { return ____instance_4; }
 	inline Logger_t7A883ED908F6CC770EC675698C1A37CBD753667A ** get_address_of__instance_4() { return &____instance_4; }
 	inline void set__instance_4(Logger_t7A883ED908F6CC770EC675698C1A37CBD753667A * value)
@@ -60258,7 +60258,7 @@ public:
 
 
 // DroneActionMapping
-struct DroneActionMapping_t797C7A50A606D5728C1ECC4F949BA8F680F5C04C  : public Singleton_1_tB01F1C1A77F7A4456BD1B0F66CD0DA15276FA535
+struct DroneActionMapping_t797C7A50A606D5728C1ECC4F949BA8F680F5C04C  : public Singleton_1_tC5597FDFEB160B71F259FC4B18B1E2F89A0EA83D
 {
 public:
 	// System.Collections.Generic.Dictionary`2<DroneAction,DroneActionMapping/ActionRef`1<System.Int32>> DroneActionMapping::ControllersMovementInputBindings
@@ -60299,7 +60299,7 @@ public:
 
 
 // DroneClient
-struct DroneClient_tD1DCEB6EF9F62881A7644DF9412033F5B8D9FE66  : public Singleton_1_t475F8C873A131F607CBF57651A6704D6ED4A9C3E
+struct DroneClient_tD1DCEB6EF9F62881A7644DF9412033F5B8D9FE66  : public Singleton_1_t8CF900E26A51D619C673A82ED2C147D1BD1D026C
 {
 public:
 	// System.String DroneClient::droneIP
@@ -60429,7 +60429,7 @@ public:
 
 
 // DroneController
-struct DroneController_tFB53AA785BD95D3EB93804A1B28101EB2E32DCAD  : public Singleton_1_tB503F0E5272CE60C77B367D654FAA055606E7D30
+struct DroneController_tFB53AA785BD95D3EB93804A1B28101EB2E32DCAD  : public Singleton_1_t87194F4801804095FAA3DBB283476015CE2D0720
 {
 public:
 	// DroneControllerType DroneController::droneControllerType
@@ -60621,7 +60621,7 @@ public:
 
 
 // DroneStateManager
-struct DroneStateManager_t708A1FE66D25F0242A1C72E03546716B2FC68973  : public Singleton_1_t4239CBB335D82915E56C37B01100F142BEAB2797
+struct DroneStateManager_t708A1FE66D25F0242A1C72E03546716B2FC68973  : public Singleton_1_t2A559051A9FCC65AA259BBAC7A2EE21D911E618B
 {
 public:
 	// System.Single DroneStateManager::updateFrequency
@@ -62543,7 +62543,7 @@ public:
 
 
 // Logger
-struct Logger_t7A883ED908F6CC770EC675698C1A37CBD753667A  : public Singleton_1_t4F9095F8D4CC82341BCE309822DDFC5E0D0CD27B
+struct Logger_t7A883ED908F6CC770EC675698C1A37CBD753667A  : public Singleton_1_t84C00040F79616CF859CF17E33B2C2EFE7F39482
 {
 public:
 	// TMPro.TextMeshProUGUI Logger::debugAreaText
@@ -68536,7 +68536,7 @@ const Il2CppTypeDefinitionSizes g_typeDefinitionSize5653 = { sizeof (StartMenu_t
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize5654;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize5654 = { sizeof (DroneRequest_tDF17E6459A5F9608633FD36E90EDEAA2A454D2F6), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize5655;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize5655 = { sizeof (DroneReponse_t5F58B27402A5900762136569D56E06C3981F07CC), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize5655 = { sizeof (DroneResponse_t4A3A44B9B0B02E3A4270903297CE39EE2BEA3B61), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize5656;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize5656 = { sizeof (DroneStats_tD98EB3A4BFD02EAE3C12EA8DA2AAFA2AAC5A187C), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize5657;

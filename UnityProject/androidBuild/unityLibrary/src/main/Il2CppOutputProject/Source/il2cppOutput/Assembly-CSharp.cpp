@@ -261,16 +261,16 @@ struct Queue_1_t65333FCCA10D8CE1B441D400B6B94140BCB8BF64;
 struct Queue_1_tD2C03A5990B5958D85846D872A22AA67F3E8F97D;
 // Oculus.Platform.Request`1<System.String>
 struct Request_1_t27F6F6ECC76859C52928CF488BBE36D802552FAC;
-// DilmerGames.Core.Singletons.Singleton`1<DroneActionMapping>
-struct Singleton_1_tB01F1C1A77F7A4456BD1B0F66CD0DA15276FA535;
-// DilmerGames.Core.Singletons.Singleton`1<DroneClient>
-struct Singleton_1_t475F8C873A131F607CBF57651A6704D6ED4A9C3E;
-// DilmerGames.Core.Singletons.Singleton`1<DroneController>
-struct Singleton_1_tB503F0E5272CE60C77B367D654FAA055606E7D30;
-// DilmerGames.Core.Singletons.Singleton`1<DroneStateManager>
-struct Singleton_1_t4239CBB335D82915E56C37B01100F142BEAB2797;
-// DilmerGames.Core.Singletons.Singleton`1<System.Object>
-struct Singleton_1_t2E3677EC4D15F07D2515C903BE265814608A3EFA;
+// prometheontechnologies.Core.Singletons.Singleton`1<DroneActionMapping>
+struct Singleton_1_tC5597FDFEB160B71F259FC4B18B1E2F89A0EA83D;
+// prometheontechnologies.Core.Singletons.Singleton`1<DroneClient>
+struct Singleton_1_t8CF900E26A51D619C673A82ED2C147D1BD1D026C;
+// prometheontechnologies.Core.Singletons.Singleton`1<DroneController>
+struct Singleton_1_t87194F4801804095FAA3DBB283476015CE2D0720;
+// prometheontechnologies.Core.Singletons.Singleton`1<DroneStateManager>
+struct Singleton_1_t2A559051A9FCC65AA259BBAC7A2EE21D911E618B;
+// prometheontechnologies.Core.Singletons.Singleton`1<System.Object>
+struct Singleton_1_tF788628E4542A19F80B248DABD8ACE3EC432AC14;
 // UnityEngine.UI.CoroutineTween.TweenRunner`1<UnityEngine.UI.CoroutineTween.ColorTween>
 struct TweenRunner_1_tD84B9953874682FCC36990AF2C54D748293908F3;
 // UnityEngine.Events.UnityAction`1<System.Boolean>
@@ -577,10 +577,10 @@ struct DroneConstants_t9FF3875783D42D6F78C866CE0D86FB8F0BA9AADC;
 struct DroneController_tFB53AA785BD95D3EB93804A1B28101EB2E32DCAD;
 // DronePilotOverlay
 struct DronePilotOverlay_t2F82F28194204F9C9A2F961E8A0AB6EA470793F1;
-// DroneReponse
-struct DroneReponse_t5F58B27402A5900762136569D56E06C3981F07CC;
 // DroneRequest
 struct DroneRequest_tDF17E6459A5F9608633FD36E90EDEAA2A454D2F6;
+// DroneResponse
+struct DroneResponse_t4A3A44B9B0B02E3A4270903297CE39EE2BEA3B61;
 // DroneStateManager
 struct DroneStateManager_t708A1FE66D25F0242A1C72E03546716B2FC68973;
 // DroneStats
@@ -1280,14 +1280,14 @@ IL2CPP_EXTERN_C const RuntimeMethod* Queue_1_Dequeue_m8E582C120D348CF28DEECA38CB
 IL2CPP_EXTERN_C const RuntimeMethod* Queue_1_Enqueue_mD31335DFB51B4E0C68657790AAF0963EA8E7A059_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Queue_1__ctor_m3D79180EA2D2D7897016B383AA035A8B0AE08591_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Queue_1_get_Count_mD7C8C22580B59BE7F224C7E5AC3C079592F54D58_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Singleton_1__ctor_m0A6DB39D0035DC1868A647E833F64E2D44FAF03D_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Singleton_1__ctor_m83E69EA40469ED58725343AB095633974897BC09_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Singleton_1__ctor_mC6A2AAAE8320FE72633003C96F2B272AF568C53A_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Singleton_1__ctor_mF3588F5BC35793EEFC4903A4E3348F29C138B6CB_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Singleton_1_get_Instance_m202F3E0E55A68FB2615A81B14A54E4F166588B4F_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Singleton_1_get_Instance_m6FF9C159B383C301CC4307D23FF71AE1524BA3AB_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Singleton_1_get_Instance_m7860FCF015A344EF630B027AC108617321B06911_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Singleton_1_get_Instance_mD35EB580E2B48308B760D2036F88868844BD7052_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Singleton_1__ctor_m4147548D23CEDFBE648FC5F416F8BCD9A9A219BC_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Singleton_1__ctor_m7B28942322081317664C88CCFEA5473B581952CB_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Singleton_1__ctor_m99A58CCC70A6D2A28F76E1B2563D3D8915FAA6A2_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Singleton_1__ctor_mCC575D27C9509A8E1B1421BB6D4F9F5242043AFB_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Singleton_1_get_Instance_m31ECA4642794F750803EDE264B482B1B0AEC3FA5_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Singleton_1_get_Instance_m65B1010186B7A8AC4D14D33F0ACBE1A9272D5035_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Singleton_1_get_Instance_mF15ECC962526230DD50865551B8CA002DB188804_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Singleton_1_get_Instance_mFF230AA594EED17061F88A4684A33446CF8DFB9A_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CHandleCoreActionU3Eb__5_0_m2DB56FD67A53D04DC46207285F2073B21B0B5F81_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3C_ctorU3Eb__7_0_m305A1FB9CEC66849970630D175478F5EA2357F3C_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3C_ctorU3Eb__7_10_m13F3CF7610EEA5F96B30A52A8108F46A10AECD73_RuntimeMethod_var;
@@ -12249,35 +12249,6 @@ public:
 };
 
 
-// DroneReponse
-struct DroneReponse_t5F58B27402A5900762136569D56E06C3981F07CC  : public RuntimeObject
-{
-public:
-	// DroneCommand DroneReponse::<Command>k__BackingField
-	int32_t ___U3CCommandU3Ek__BackingField_0;
-	// System.String DroneReponse::<Response>k__BackingField
-	String_t* ___U3CResponseU3Ek__BackingField_1;
-
-public:
-	inline static int32_t get_offset_of_U3CCommandU3Ek__BackingField_0() { return static_cast<int32_t>(offsetof(DroneReponse_t5F58B27402A5900762136569D56E06C3981F07CC, ___U3CCommandU3Ek__BackingField_0)); }
-	inline int32_t get_U3CCommandU3Ek__BackingField_0() const { return ___U3CCommandU3Ek__BackingField_0; }
-	inline int32_t* get_address_of_U3CCommandU3Ek__BackingField_0() { return &___U3CCommandU3Ek__BackingField_0; }
-	inline void set_U3CCommandU3Ek__BackingField_0(int32_t value)
-	{
-		___U3CCommandU3Ek__BackingField_0 = value;
-	}
-
-	inline static int32_t get_offset_of_U3CResponseU3Ek__BackingField_1() { return static_cast<int32_t>(offsetof(DroneReponse_t5F58B27402A5900762136569D56E06C3981F07CC, ___U3CResponseU3Ek__BackingField_1)); }
-	inline String_t* get_U3CResponseU3Ek__BackingField_1() const { return ___U3CResponseU3Ek__BackingField_1; }
-	inline String_t** get_address_of_U3CResponseU3Ek__BackingField_1() { return &___U3CResponseU3Ek__BackingField_1; }
-	inline void set_U3CResponseU3Ek__BackingField_1(String_t* value)
-	{
-		___U3CResponseU3Ek__BackingField_1 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___U3CResponseU3Ek__BackingField_1), (void*)value);
-	}
-};
-
-
 // DroneRequest
 struct DroneRequest_tDF17E6459A5F9608633FD36E90EDEAA2A454D2F6  : public RuntimeObject
 {
@@ -12313,6 +12284,35 @@ public:
 	inline void set_U3CCommandU3Ek__BackingField_2(int32_t value)
 	{
 		___U3CCommandU3Ek__BackingField_2 = value;
+	}
+};
+
+
+// DroneResponse
+struct DroneResponse_t4A3A44B9B0B02E3A4270903297CE39EE2BEA3B61  : public RuntimeObject
+{
+public:
+	// DroneCommand DroneResponse::<Command>k__BackingField
+	int32_t ___U3CCommandU3Ek__BackingField_0;
+	// System.String DroneResponse::<Response>k__BackingField
+	String_t* ___U3CResponseU3Ek__BackingField_1;
+
+public:
+	inline static int32_t get_offset_of_U3CCommandU3Ek__BackingField_0() { return static_cast<int32_t>(offsetof(DroneResponse_t4A3A44B9B0B02E3A4270903297CE39EE2BEA3B61, ___U3CCommandU3Ek__BackingField_0)); }
+	inline int32_t get_U3CCommandU3Ek__BackingField_0() const { return ___U3CCommandU3Ek__BackingField_0; }
+	inline int32_t* get_address_of_U3CCommandU3Ek__BackingField_0() { return &___U3CCommandU3Ek__BackingField_0; }
+	inline void set_U3CCommandU3Ek__BackingField_0(int32_t value)
+	{
+		___U3CCommandU3Ek__BackingField_0 = value;
+	}
+
+	inline static int32_t get_offset_of_U3CResponseU3Ek__BackingField_1() { return static_cast<int32_t>(offsetof(DroneResponse_t4A3A44B9B0B02E3A4270903297CE39EE2BEA3B61, ___U3CResponseU3Ek__BackingField_1)); }
+	inline String_t* get_U3CResponseU3Ek__BackingField_1() const { return ___U3CResponseU3Ek__BackingField_1; }
+	inline String_t** get_address_of_U3CResponseU3Ek__BackingField_1() { return &___U3CResponseU3Ek__BackingField_1; }
+	inline void set_U3CResponseU3Ek__BackingField_1(String_t* value)
+	{
+		___U3CResponseU3Ek__BackingField_1 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U3CResponseU3Ek__BackingField_1), (void*)value);
 	}
 };
 
@@ -17472,22 +17472,22 @@ struct ovrAvatarRenderPart_SkinnedMeshRender_tBF7A0FFF8ECB0E092C54DC7F0ED4D28D1E
 	ovrAvatarSkinnedMeshPose_t69E4BF53D1EAF8CA8DDC2DD974634740B4E8209B_marshaled_com ___skinnedPose_4;
 };
 
-// DilmerGames.Core.Singletons.Singleton`1<DroneActionMapping>
-struct Singleton_1_tB01F1C1A77F7A4456BD1B0F66CD0DA15276FA535  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
+// prometheontechnologies.Core.Singletons.Singleton`1<DroneActionMapping>
+struct Singleton_1_tC5597FDFEB160B71F259FC4B18B1E2F89A0EA83D  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
 {
 public:
 
 public:
 };
 
-struct Singleton_1_tB01F1C1A77F7A4456BD1B0F66CD0DA15276FA535_StaticFields
+struct Singleton_1_tC5597FDFEB160B71F259FC4B18B1E2F89A0EA83D_StaticFields
 {
 public:
-	// T DilmerGames.Core.Singletons.Singleton`1::_instance
+	// T prometheontechnologies.Core.Singletons.Singleton`1::_instance
 	DroneActionMapping_t797C7A50A606D5728C1ECC4F949BA8F680F5C04C * ____instance_4;
 
 public:
-	inline static int32_t get_offset_of__instance_4() { return static_cast<int32_t>(offsetof(Singleton_1_tB01F1C1A77F7A4456BD1B0F66CD0DA15276FA535_StaticFields, ____instance_4)); }
+	inline static int32_t get_offset_of__instance_4() { return static_cast<int32_t>(offsetof(Singleton_1_tC5597FDFEB160B71F259FC4B18B1E2F89A0EA83D_StaticFields, ____instance_4)); }
 	inline DroneActionMapping_t797C7A50A606D5728C1ECC4F949BA8F680F5C04C * get__instance_4() const { return ____instance_4; }
 	inline DroneActionMapping_t797C7A50A606D5728C1ECC4F949BA8F680F5C04C ** get_address_of__instance_4() { return &____instance_4; }
 	inline void set__instance_4(DroneActionMapping_t797C7A50A606D5728C1ECC4F949BA8F680F5C04C * value)
@@ -17498,22 +17498,22 @@ public:
 };
 
 
-// DilmerGames.Core.Singletons.Singleton`1<DroneClient>
-struct Singleton_1_t475F8C873A131F607CBF57651A6704D6ED4A9C3E  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
+// prometheontechnologies.Core.Singletons.Singleton`1<DroneClient>
+struct Singleton_1_t8CF900E26A51D619C673A82ED2C147D1BD1D026C  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
 {
 public:
 
 public:
 };
 
-struct Singleton_1_t475F8C873A131F607CBF57651A6704D6ED4A9C3E_StaticFields
+struct Singleton_1_t8CF900E26A51D619C673A82ED2C147D1BD1D026C_StaticFields
 {
 public:
-	// T DilmerGames.Core.Singletons.Singleton`1::_instance
+	// T prometheontechnologies.Core.Singletons.Singleton`1::_instance
 	DroneClient_tD1DCEB6EF9F62881A7644DF9412033F5B8D9FE66 * ____instance_4;
 
 public:
-	inline static int32_t get_offset_of__instance_4() { return static_cast<int32_t>(offsetof(Singleton_1_t475F8C873A131F607CBF57651A6704D6ED4A9C3E_StaticFields, ____instance_4)); }
+	inline static int32_t get_offset_of__instance_4() { return static_cast<int32_t>(offsetof(Singleton_1_t8CF900E26A51D619C673A82ED2C147D1BD1D026C_StaticFields, ____instance_4)); }
 	inline DroneClient_tD1DCEB6EF9F62881A7644DF9412033F5B8D9FE66 * get__instance_4() const { return ____instance_4; }
 	inline DroneClient_tD1DCEB6EF9F62881A7644DF9412033F5B8D9FE66 ** get_address_of__instance_4() { return &____instance_4; }
 	inline void set__instance_4(DroneClient_tD1DCEB6EF9F62881A7644DF9412033F5B8D9FE66 * value)
@@ -17524,22 +17524,22 @@ public:
 };
 
 
-// DilmerGames.Core.Singletons.Singleton`1<DroneController>
-struct Singleton_1_tB503F0E5272CE60C77B367D654FAA055606E7D30  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
+// prometheontechnologies.Core.Singletons.Singleton`1<DroneController>
+struct Singleton_1_t87194F4801804095FAA3DBB283476015CE2D0720  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
 {
 public:
 
 public:
 };
 
-struct Singleton_1_tB503F0E5272CE60C77B367D654FAA055606E7D30_StaticFields
+struct Singleton_1_t87194F4801804095FAA3DBB283476015CE2D0720_StaticFields
 {
 public:
-	// T DilmerGames.Core.Singletons.Singleton`1::_instance
+	// T prometheontechnologies.Core.Singletons.Singleton`1::_instance
 	DroneController_tFB53AA785BD95D3EB93804A1B28101EB2E32DCAD * ____instance_4;
 
 public:
-	inline static int32_t get_offset_of__instance_4() { return static_cast<int32_t>(offsetof(Singleton_1_tB503F0E5272CE60C77B367D654FAA055606E7D30_StaticFields, ____instance_4)); }
+	inline static int32_t get_offset_of__instance_4() { return static_cast<int32_t>(offsetof(Singleton_1_t87194F4801804095FAA3DBB283476015CE2D0720_StaticFields, ____instance_4)); }
 	inline DroneController_tFB53AA785BD95D3EB93804A1B28101EB2E32DCAD * get__instance_4() const { return ____instance_4; }
 	inline DroneController_tFB53AA785BD95D3EB93804A1B28101EB2E32DCAD ** get_address_of__instance_4() { return &____instance_4; }
 	inline void set__instance_4(DroneController_tFB53AA785BD95D3EB93804A1B28101EB2E32DCAD * value)
@@ -17550,22 +17550,22 @@ public:
 };
 
 
-// DilmerGames.Core.Singletons.Singleton`1<DroneStateManager>
-struct Singleton_1_t4239CBB335D82915E56C37B01100F142BEAB2797  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
+// prometheontechnologies.Core.Singletons.Singleton`1<DroneStateManager>
+struct Singleton_1_t2A559051A9FCC65AA259BBAC7A2EE21D911E618B  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
 {
 public:
 
 public:
 };
 
-struct Singleton_1_t4239CBB335D82915E56C37B01100F142BEAB2797_StaticFields
+struct Singleton_1_t2A559051A9FCC65AA259BBAC7A2EE21D911E618B_StaticFields
 {
 public:
-	// T DilmerGames.Core.Singletons.Singleton`1::_instance
+	// T prometheontechnologies.Core.Singletons.Singleton`1::_instance
 	DroneStateManager_t708A1FE66D25F0242A1C72E03546716B2FC68973 * ____instance_4;
 
 public:
-	inline static int32_t get_offset_of__instance_4() { return static_cast<int32_t>(offsetof(Singleton_1_t4239CBB335D82915E56C37B01100F142BEAB2797_StaticFields, ____instance_4)); }
+	inline static int32_t get_offset_of__instance_4() { return static_cast<int32_t>(offsetof(Singleton_1_t2A559051A9FCC65AA259BBAC7A2EE21D911E618B_StaticFields, ____instance_4)); }
 	inline DroneStateManager_t708A1FE66D25F0242A1C72E03546716B2FC68973 * get__instance_4() const { return ____instance_4; }
 	inline DroneStateManager_t708A1FE66D25F0242A1C72E03546716B2FC68973 ** get_address_of__instance_4() { return &____instance_4; }
 	inline void set__instance_4(DroneStateManager_t708A1FE66D25F0242A1C72E03546716B2FC68973 * value)
@@ -17576,22 +17576,22 @@ public:
 };
 
 
-// DilmerGames.Core.Singletons.Singleton`1<Logger>
-struct Singleton_1_t4F9095F8D4CC82341BCE309822DDFC5E0D0CD27B  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
+// prometheontechnologies.Core.Singletons.Singleton`1<Logger>
+struct Singleton_1_t84C00040F79616CF859CF17E33B2C2EFE7F39482  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
 {
 public:
 
 public:
 };
 
-struct Singleton_1_t4F9095F8D4CC82341BCE309822DDFC5E0D0CD27B_StaticFields
+struct Singleton_1_t84C00040F79616CF859CF17E33B2C2EFE7F39482_StaticFields
 {
 public:
-	// T DilmerGames.Core.Singletons.Singleton`1::_instance
+	// T prometheontechnologies.Core.Singletons.Singleton`1::_instance
 	Logger_t7A883ED908F6CC770EC675698C1A37CBD753667A * ____instance_4;
 
 public:
-	inline static int32_t get_offset_of__instance_4() { return static_cast<int32_t>(offsetof(Singleton_1_t4F9095F8D4CC82341BCE309822DDFC5E0D0CD27B_StaticFields, ____instance_4)); }
+	inline static int32_t get_offset_of__instance_4() { return static_cast<int32_t>(offsetof(Singleton_1_t84C00040F79616CF859CF17E33B2C2EFE7F39482_StaticFields, ____instance_4)); }
 	inline Logger_t7A883ED908F6CC770EC675698C1A37CBD753667A * get__instance_4() const { return ____instance_4; }
 	inline Logger_t7A883ED908F6CC770EC675698C1A37CBD753667A ** get_address_of__instance_4() { return &____instance_4; }
 	inline void set__instance_4(Logger_t7A883ED908F6CC770EC675698C1A37CBD753667A * value)
@@ -23329,7 +23329,7 @@ public:
 
 
 // DroneActionMapping
-struct DroneActionMapping_t797C7A50A606D5728C1ECC4F949BA8F680F5C04C  : public Singleton_1_tB01F1C1A77F7A4456BD1B0F66CD0DA15276FA535
+struct DroneActionMapping_t797C7A50A606D5728C1ECC4F949BA8F680F5C04C  : public Singleton_1_tC5597FDFEB160B71F259FC4B18B1E2F89A0EA83D
 {
 public:
 	// System.Collections.Generic.Dictionary`2<DroneAction,DroneActionMapping/ActionRef`1<System.Int32>> DroneActionMapping::ControllersMovementInputBindings
@@ -23370,7 +23370,7 @@ public:
 
 
 // DroneClient
-struct DroneClient_tD1DCEB6EF9F62881A7644DF9412033F5B8D9FE66  : public Singleton_1_t475F8C873A131F607CBF57651A6704D6ED4A9C3E
+struct DroneClient_tD1DCEB6EF9F62881A7644DF9412033F5B8D9FE66  : public Singleton_1_t8CF900E26A51D619C673A82ED2C147D1BD1D026C
 {
 public:
 	// System.String DroneClient::droneIP
@@ -23500,7 +23500,7 @@ public:
 
 
 // DroneController
-struct DroneController_tFB53AA785BD95D3EB93804A1B28101EB2E32DCAD  : public Singleton_1_tB503F0E5272CE60C77B367D654FAA055606E7D30
+struct DroneController_tFB53AA785BD95D3EB93804A1B28101EB2E32DCAD  : public Singleton_1_t87194F4801804095FAA3DBB283476015CE2D0720
 {
 public:
 	// DroneControllerType DroneController::droneControllerType
@@ -23692,7 +23692,7 @@ public:
 
 
 // DroneStateManager
-struct DroneStateManager_t708A1FE66D25F0242A1C72E03546716B2FC68973  : public Singleton_1_t4239CBB335D82915E56C37B01100F142BEAB2797
+struct DroneStateManager_t708A1FE66D25F0242A1C72E03546716B2FC68973  : public Singleton_1_t2A559051A9FCC65AA259BBAC7A2EE21D911E618B
 {
 public:
 	// System.Single DroneStateManager::updateFrequency
@@ -24346,7 +24346,7 @@ public:
 
 
 // Logger
-struct Logger_t7A883ED908F6CC770EC675698C1A37CBD753667A  : public Singleton_1_t4F9095F8D4CC82341BCE309822DDFC5E0D0CD27B
+struct Logger_t7A883ED908F6CC770EC675698C1A37CBD753667A  : public Singleton_1_t84C00040F79616CF859CF17E33B2C2EFE7F39482
 {
 public:
 	// TMPro.TextMeshProUGUI Logger::debugAreaText
@@ -30694,8 +30694,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject * Enumerator_get_Cu
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enumerator_MoveNext_mB380BB4BFD80C5A3080F2980B3BD52FB255FEC7A_gshared (Enumerator_tC65CCC1226A8ADC61C1D0B645D6B48EDC74C7713 * __this, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.Object,System.Int32>::Dispose()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enumerator_Dispose_mBF906D5B94336A92FED1A69E0EF666BBEAFF84AA_gshared (Enumerator_tC65CCC1226A8ADC61C1D0B645D6B48EDC74C7713 * __this, const RuntimeMethod* method);
-// T DilmerGames.Core.Singletons.Singleton`1<System.Object>::get_Instance()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * Singleton_1_get_Instance_m3040A53D74EE45003BB35B43E649B6282101A30D_gshared (const RuntimeMethod* method);
+// T prometheontechnologies.Core.Singletons.Singleton`1<System.Object>::get_Instance()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * Singleton_1_get_Instance_m84F70FB61438AC138EA8EF4E089A7CCFE5E1D84B_gshared (const RuntimeMethod* method);
 // System.Void System.Func`2<System.Object,System.Boolean>::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_mCA84157864A199574AD0B7F3083F99B54DC1F98C_gshared (Func_2_t99409DECFF50F0FA9B427C863AC6C99C66E6F9F8 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method);
 // !!0 System.Linq.Enumerable::SingleOrDefault<System.Object>(System.Collections.Generic.IEnumerable`1<!!0>,System.Func`2<!!0,System.Boolean>)
@@ -30708,8 +30708,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionRef_1__ctor_m25C78E75C40985303DEEC
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_Add_mEA7DC2B06A480A5EC7DE49B6E83C2D121D1962EF_gshared (Dictionary_2_t7E8D40B461AB586AEA5DD75D8354C4913EEB1337 * __this, int32_t ___key0, RuntimeObject * ___value1, const RuntimeMethod* method);
 // System.Void DroneActionMapping/ActionRef`1<System.Boolean>::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionRef_1__ctor_m26EBAAED799BED66103BEAE768ACAF7D20FC97CC_gshared (ActionRef_1_t5B5FEDA0B9CEC9E1470C7DFC2AFBCAEB3D6D7B17 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method);
-// System.Void DilmerGames.Core.Singletons.Singleton`1<System.Object>::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Singleton_1__ctor_m74AD24D9E9146F7739577D4A044A5C297852D062_gshared (Singleton_1_t2E3677EC4D15F07D2515C903BE265814608A3EFA * __this, const RuntimeMethod* method);
+// System.Void prometheontechnologies.Core.Singletons.Singleton`1<System.Object>::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Singleton_1__ctor_mA43BA95158B1EBE7A454379A58B175EA7537BDEC_gshared (Singleton_1_tF788628E4542A19F80B248DABD8ACE3EC432AC14 * __this, const RuntimeMethod* method);
 // System.Int32 System.Collections.Generic.Queue`1<System.Object>::get_Count()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Queue_1_get_Count_mD618588C9785F06D043BE6AAD0A0B8116B2A77A3_gshared_inline (Queue_1_t65333FCCA10D8CE1B441D400B6B94140BCB8BF64 * __this, const RuntimeMethod* method);
 // !0 System.Collections.Generic.Queue`1<System.Object>::Dequeue()
@@ -32060,19 +32060,19 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool DistanceGrabberSample_get_Al
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DistanceGrabberSample_set_AllowGrabThroughWalls_m47024AC8A8622EB0582E9FBBD92AFAE9FDC70186 (DistanceGrabberSample_t31D1A2AEB2C5B6986FB20A199F91F93264B53EFB * __this, bool ___value0, const RuntimeMethod* method);
 // System.Void DroneActionMapping/<>c__DisplayClass5_0::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_0__ctor_mC4D4D60F191004C1B0F6087797B8DF6E1CC59639 (U3CU3Ec__DisplayClass5_0_tAA4FB4050D3CB7A4A9E48C2E408A43A489BA4E5D * __this, const RuntimeMethod* method);
-// T DilmerGames.Core.Singletons.Singleton`1<DroneController>::get_Instance()
-inline DroneController_tFB53AA785BD95D3EB93804A1B28101EB2E32DCAD * Singleton_1_get_Instance_mD35EB580E2B48308B760D2036F88868844BD7052 (const RuntimeMethod* method)
+// T prometheontechnologies.Core.Singletons.Singleton`1<DroneController>::get_Instance()
+inline DroneController_tFB53AA785BD95D3EB93804A1B28101EB2E32DCAD * Singleton_1_get_Instance_m65B1010186B7A8AC4D14D33F0ACBE1A9272D5035 (const RuntimeMethod* method)
 {
-	return ((  DroneController_tFB53AA785BD95D3EB93804A1B28101EB2E32DCAD * (*) (const RuntimeMethod*))Singleton_1_get_Instance_m3040A53D74EE45003BB35B43E649B6282101A30D_gshared)(method);
+	return ((  DroneController_tFB53AA785BD95D3EB93804A1B28101EB2E32DCAD * (*) (const RuntimeMethod*))Singleton_1_get_Instance_m84F70FB61438AC138EA8EF4E089A7CCFE5E1D84B_gshared)(method);
 }
 // OVRHand DroneController::get_LeftHand()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR OVRHand_tC05A35B82243C7F008BE75311F52746E27D1566A * DroneController_get_LeftHand_mC1458FA4DD17D7ADD73D11280F3CC268F1B0D97F_inline (DroneController_tFB53AA785BD95D3EB93804A1B28101EB2E32DCAD * __this, const RuntimeMethod* method);
 // OVRHand DroneController::get_RightHand()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR OVRHand_tC05A35B82243C7F008BE75311F52746E27D1566A * DroneController_get_RightHand_m65CA1E341D453A746923A6A0C20F7E35AEB2AB3C_inline (DroneController_tFB53AA785BD95D3EB93804A1B28101EB2E32DCAD * __this, const RuntimeMethod* method);
-// T DilmerGames.Core.Singletons.Singleton`1<Logger>::get_Instance()
-inline Logger_t7A883ED908F6CC770EC675698C1A37CBD753667A * Singleton_1_get_Instance_m202F3E0E55A68FB2615A81B14A54E4F166588B4F (const RuntimeMethod* method)
+// T prometheontechnologies.Core.Singletons.Singleton`1<Logger>::get_Instance()
+inline Logger_t7A883ED908F6CC770EC675698C1A37CBD753667A * Singleton_1_get_Instance_m31ECA4642794F750803EDE264B482B1B0AEC3FA5 (const RuntimeMethod* method)
 {
-	return ((  Logger_t7A883ED908F6CC770EC675698C1A37CBD753667A * (*) (const RuntimeMethod*))Singleton_1_get_Instance_m3040A53D74EE45003BB35B43E649B6282101A30D_gshared)(method);
+	return ((  Logger_t7A883ED908F6CC770EC675698C1A37CBD753667A * (*) (const RuntimeMethod*))Singleton_1_get_Instance_m84F70FB61438AC138EA8EF4E089A7CCFE5E1D84B_gshared)(method);
 }
 // System.Void Logger::LogInfo(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Logger_LogInfo_m5C96E52F8097935961203F7820AD94111D0792FF (Logger_t7A883ED908F6CC770EC675698C1A37CBD753667A * __this, String_t* ___message0, const RuntimeMethod* method);
@@ -32102,10 +32102,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Vector2_Distance_m7DFAD110E57AF0E903DDC
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_m039737CCD992C5BFC8D16DFD681F5E8786E87FA6 (String_t* ___format0, RuntimeObject * ___arg01, RuntimeObject * ___arg12, RuntimeObject * ___arg23, const RuntimeMethod* method);
 // System.Boolean OVRInput::Get(OVRInput/Button,OVRInput/Controller)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OVRInput_Get_m01949028DBF8122DBE98F4A9BF93994E99D7763A (int32_t ___virtualMask0, int32_t ___controllerMask1, const RuntimeMethod* method);
-// T DilmerGames.Core.Singletons.Singleton`1<DroneClient>::get_Instance()
-inline DroneClient_tD1DCEB6EF9F62881A7644DF9412033F5B8D9FE66 * Singleton_1_get_Instance_m6FF9C159B383C301CC4307D23FF71AE1524BA3AB (const RuntimeMethod* method)
+// T prometheontechnologies.Core.Singletons.Singleton`1<DroneClient>::get_Instance()
+inline DroneClient_tD1DCEB6EF9F62881A7644DF9412033F5B8D9FE66 * Singleton_1_get_Instance_mFF230AA594EED17061F88A4684A33446CF8DFB9A (const RuntimeMethod* method)
 {
-	return ((  DroneClient_tD1DCEB6EF9F62881A7644DF9412033F5B8D9FE66 * (*) (const RuntimeMethod*))Singleton_1_get_Instance_m3040A53D74EE45003BB35B43E649B6282101A30D_gshared)(method);
+	return ((  DroneClient_tD1DCEB6EF9F62881A7644DF9412033F5B8D9FE66 * (*) (const RuntimeMethod*))Singleton_1_get_Instance_m84F70FB61438AC138EA8EF4E089A7CCFE5E1D84B_gshared)(method);
 }
 // System.Void DroneRequest::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DroneRequest__ctor_m58F71258D63D63A842FEF5C995D45178CC535134 (DroneRequest_tDF17E6459A5F9608633FD36E90EDEAA2A454D2F6 * __this, const RuntimeMethod* method);
@@ -32159,10 +32159,10 @@ inline void Dictionary_2_Add_m3D84CB6C00DF62959D76116BCA86FE4731B9DE9B (Dictiona
 {
 	((  void (*) (Dictionary_2_tFCE5C8DC50D317DAE8E43434AEC67C90370AF836 *, int32_t, ActionRef_1_t5B5FEDA0B9CEC9E1470C7DFC2AFBCAEB3D6D7B17 *, const RuntimeMethod*))Dictionary_2_Add_mEA7DC2B06A480A5EC7DE49B6E83C2D121D1962EF_gshared)(__this, ___key0, ___value1, method);
 }
-// System.Void DilmerGames.Core.Singletons.Singleton`1<DroneActionMapping>::.ctor()
-inline void Singleton_1__ctor_mC6A2AAAE8320FE72633003C96F2B272AF568C53A (Singleton_1_tB01F1C1A77F7A4456BD1B0F66CD0DA15276FA535 * __this, const RuntimeMethod* method)
+// System.Void prometheontechnologies.Core.Singletons.Singleton`1<DroneActionMapping>::.ctor()
+inline void Singleton_1__ctor_m4147548D23CEDFBE648FC5F416F8BCD9A9A219BC (Singleton_1_tC5597FDFEB160B71F259FC4B18B1E2F89A0EA83D * __this, const RuntimeMethod* method)
 {
-	((  void (*) (Singleton_1_tB01F1C1A77F7A4456BD1B0F66CD0DA15276FA535 *, const RuntimeMethod*))Singleton_1__ctor_m74AD24D9E9146F7739577D4A044A5C297852D062_gshared)(__this, method);
+	((  void (*) (Singleton_1_tC5597FDFEB160B71F259FC4B18B1E2F89A0EA83D *, const RuntimeMethod*))Singleton_1__ctor_mA43BA95158B1EBE7A454379A58B175EA7537BDEC_gshared)(__this, method);
 }
 // System.Collections.Generic.Queue`1<System.String> DroneClient::get_LogMessages()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Queue_1_tD2C03A5990B5958D85846D872A22AA67F3E8F97D * DroneClient_get_LogMessages_m442AB2CACFAFB477EAA43FF0050363C4BA2AF3D1_inline (DroneClient_tD1DCEB6EF9F62881A7644DF9412033F5B8D9FE66 * __this, const RuntimeMethod* method);
@@ -32251,20 +32251,20 @@ inline void Queue_1__ctor_m3D79180EA2D2D7897016B383AA035A8B0AE08591 (Queue_1_tD2
 {
 	((  void (*) (Queue_1_tD2C03A5990B5958D85846D872A22AA67F3E8F97D *, const RuntimeMethod*))Queue_1__ctor_m065613451660A1479E4D6D00878FB7630AFE4E11_gshared)(__this, method);
 }
-// System.Void DilmerGames.Core.Singletons.Singleton`1<DroneClient>::.ctor()
-inline void Singleton_1__ctor_m0A6DB39D0035DC1868A647E833F64E2D44FAF03D (Singleton_1_t475F8C873A131F607CBF57651A6704D6ED4A9C3E * __this, const RuntimeMethod* method)
+// System.Void prometheontechnologies.Core.Singletons.Singleton`1<DroneClient>::.ctor()
+inline void Singleton_1__ctor_m99A58CCC70A6D2A28F76E1B2563D3D8915FAA6A2 (Singleton_1_t8CF900E26A51D619C673A82ED2C147D1BD1D026C * __this, const RuntimeMethod* method)
 {
-	((  void (*) (Singleton_1_t475F8C873A131F607CBF57651A6704D6ED4A9C3E *, const RuntimeMethod*))Singleton_1__ctor_m74AD24D9E9146F7739577D4A044A5C297852D062_gshared)(__this, method);
+	((  void (*) (Singleton_1_t8CF900E26A51D619C673A82ED2C147D1BD1D026C *, const RuntimeMethod*))Singleton_1__ctor_mA43BA95158B1EBE7A454379A58B175EA7537BDEC_gshared)(__this, method);
 }
 // !!0 UnityEngine.Component::GetComponent<OVRSkeleton>()
 inline OVRSkeleton_tE727DD0833515B8FCF6E7DE4BD16859BE26404EC * Component_GetComponent_TisOVRSkeleton_tE727DD0833515B8FCF6E7DE4BD16859BE26404EC_mDA071F49B497F5BEA47FB7193E04836BAD026E1A (Component_t62FBC8D2420DA4BE9037AFE430740F6B3EECA684 * __this, const RuntimeMethod* method)
 {
 	return ((  OVRSkeleton_tE727DD0833515B8FCF6E7DE4BD16859BE26404EC * (*) (Component_t62FBC8D2420DA4BE9037AFE430740F6B3EECA684 *, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m69D9C576D6DD024C709E29EEADBC8041299A3AA7_gshared)(__this, method);
 }
-// T DilmerGames.Core.Singletons.Singleton`1<DroneActionMapping>::get_Instance()
-inline DroneActionMapping_t797C7A50A606D5728C1ECC4F949BA8F680F5C04C * Singleton_1_get_Instance_m7860FCF015A344EF630B027AC108617321B06911 (const RuntimeMethod* method)
+// T prometheontechnologies.Core.Singletons.Singleton`1<DroneActionMapping>::get_Instance()
+inline DroneActionMapping_t797C7A50A606D5728C1ECC4F949BA8F680F5C04C * Singleton_1_get_Instance_mF15ECC962526230DD50865551B8CA002DB188804 (const RuntimeMethod* method)
 {
-	return ((  DroneActionMapping_t797C7A50A606D5728C1ECC4F949BA8F680F5C04C * (*) (const RuntimeMethod*))Singleton_1_get_Instance_m3040A53D74EE45003BB35B43E649B6282101A30D_gshared)(method);
+	return ((  DroneActionMapping_t797C7A50A606D5728C1ECC4F949BA8F680F5C04C * (*) (const RuntimeMethod*))Singleton_1_get_Instance_m84F70FB61438AC138EA8EF4E089A7CCFE5E1D84B_gshared)(method);
 }
 // !1 System.Collections.Generic.Dictionary`2<DroneAction,System.Action>::get_Item(!0)
 inline Action_tAF41423D285AE0862865348CF6CE51CD085ABBA6 * Dictionary_2_get_Item_m8D705F237EE1AC431529BE0715349ED97093D759 (Dictionary_2_tA73E79E253C6707328AD4A880537404D9FEB1CC6 * __this, int32_t ___key0, const RuntimeMethod* method)
@@ -32293,10 +32293,10 @@ inline void ActionRef_1_Invoke_m12AEC7D6AD69538EE8C563A590EF14A187AE2188 (Action
 {
 	((  void (*) (ActionRef_1_t5B5FEDA0B9CEC9E1470C7DFC2AFBCAEB3D6D7B17 *, bool*, const RuntimeMethod*))ActionRef_1_Invoke_m12AEC7D6AD69538EE8C563A590EF14A187AE2188_gshared)(__this, ___item0, method);
 }
-// System.Void DilmerGames.Core.Singletons.Singleton`1<DroneController>::.ctor()
-inline void Singleton_1__ctor_mF3588F5BC35793EEFC4903A4E3348F29C138B6CB (Singleton_1_tB503F0E5272CE60C77B367D654FAA055606E7D30 * __this, const RuntimeMethod* method)
+// System.Void prometheontechnologies.Core.Singletons.Singleton`1<DroneController>::.ctor()
+inline void Singleton_1__ctor_mCC575D27C9509A8E1B1421BB6D4F9F5242043AFB (Singleton_1_t87194F4801804095FAA3DBB283476015CE2D0720 * __this, const RuntimeMethod* method)
 {
-	((  void (*) (Singleton_1_tB503F0E5272CE60C77B367D654FAA055606E7D30 *, const RuntimeMethod*))Singleton_1__ctor_m74AD24D9E9146F7739577D4A044A5C297852D062_gshared)(__this, method);
+	((  void (*) (Singleton_1_t87194F4801804095FAA3DBB283476015CE2D0720 *, const RuntimeMethod*))Singleton_1__ctor_mA43BA95158B1EBE7A454379A58B175EA7537BDEC_gshared)(__this, method);
 }
 // System.Void Logger::LogWarning(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Logger_LogWarning_mC09EAA74295CA0CABCEE840ABEB4020601E3F4A5 (Logger_t7A883ED908F6CC770EC675698C1A37CBD753667A * __this, String_t* ___message0, const RuntimeMethod* method);
@@ -32308,10 +32308,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRPassthroughLayer_RemoveSurfaceGeometr
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DroneStateManager_StartStatsUpdate_m821ADE349D0DB3105152436E72382E2528F378C1 (DroneStateManager_t708A1FE66D25F0242A1C72E03546716B2FC68973 * __this, const RuntimeMethod* method);
 // System.Void DroneStateManager/<StartStatsUpdate>d__18::.ctor(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartStatsUpdateU3Ed__18__ctor_m4D40633CFF42D9664FA4524F8A55B61BEFBD07C0 (U3CStartStatsUpdateU3Ed__18_tF73940480898E7762136C7287A338C6E0C8F5A2B * __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method);
-// System.Void DilmerGames.Core.Singletons.Singleton`1<DroneStateManager>::.ctor()
-inline void Singleton_1__ctor_m83E69EA40469ED58725343AB095633974897BC09 (Singleton_1_t4239CBB335D82915E56C37B01100F142BEAB2797 * __this, const RuntimeMethod* method)
+// System.Void prometheontechnologies.Core.Singletons.Singleton`1<DroneStateManager>::.ctor()
+inline void Singleton_1__ctor_m7B28942322081317664C88CCFEA5473B581952CB (Singleton_1_t2A559051A9FCC65AA259BBAC7A2EE21D911E618B * __this, const RuntimeMethod* method)
 {
-	((  void (*) (Singleton_1_t4239CBB335D82915E56C37B01100F142BEAB2797 *, const RuntimeMethod*))Singleton_1__ctor_m74AD24D9E9146F7739577D4A044A5C297852D062_gshared)(__this, method);
+	((  void (*) (Singleton_1_t2A559051A9FCC65AA259BBAC7A2EE21D911E618B *, const RuntimeMethod*))Singleton_1__ctor_mA43BA95158B1EBE7A454379A58B175EA7537BDEC_gshared)(__this, method);
 }
 // !!0 System.Linq.Enumerable::First<System.String>(System.Collections.Generic.IEnumerable`1<!!0>)
 inline String_t* Enumerable_First_TisString_t_mA8931526CE5195A03E3E5E8FE10BC1F2D88644E9 (RuntimeObject* ___source0, const RuntimeMethod* method)
@@ -49092,8 +49092,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DroneActionMapping_HandleCoreAction_m92A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Hand_t1DDDE8E88FE43B0552E010F6755CA5AE5078EBD4_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tF2F3778131EFF286AF62B7B013A170F95A91571A_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Single_tE07797BA3C98D4CA9B5A19413C19A76688AB899E_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Singleton_1_get_Instance_m202F3E0E55A68FB2615A81B14A54E4F166588B4F_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Singleton_1_get_Instance_mD35EB580E2B48308B760D2036F88868844BD7052_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Singleton_1_get_Instance_m31ECA4642794F750803EDE264B482B1B0AEC3FA5_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Singleton_1_get_Instance_m65B1010186B7A8AC4D14D33F0ACBE1A9272D5035_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CHandleCoreActionU3Eb__5_0_m2DB56FD67A53D04DC46207285F2073B21B0B5F81_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass5_0_U3CHandleCoreActionU3Eb__1_m10AD0A56A69BC3B984DFEA2A3BB7F6E55CC84573_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass5_0_tAA4FB4050D3CB7A4A9E48C2E408A43A489BA4E5D_il2cpp_TypeInfo_var);
@@ -49126,7 +49126,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DroneActionMapping_HandleCoreAction_m92A
 		NullCheck(L_1);
 		L_1->set_boneId_0(L_2);
 		DroneController_tFB53AA785BD95D3EB93804A1B28101EB2E32DCAD * L_3;
-		L_3 = Singleton_1_get_Instance_mD35EB580E2B48308B760D2036F88868844BD7052(/*hidden argument*/Singleton_1_get_Instance_mD35EB580E2B48308B760D2036F88868844BD7052_RuntimeMethod_var);
+		L_3 = Singleton_1_get_Instance_m65B1010186B7A8AC4D14D33F0ACBE1A9272D5035(/*hidden argument*/Singleton_1_get_Instance_m65B1010186B7A8AC4D14D33F0ACBE1A9272D5035_RuntimeMethod_var);
 		NullCheck(L_3);
 		OVRHand_tC05A35B82243C7F008BE75311F52746E27D1566A * L_4;
 		L_4 = DroneController_get_LeftHand_mC1458FA4DD17D7ADD73D11280F3CC268F1B0D97F_inline(L_3, /*hidden argument*/NULL);
@@ -49140,7 +49140,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DroneActionMapping_HandleCoreAction_m92A
 	}
 	{
 		DroneController_tFB53AA785BD95D3EB93804A1B28101EB2E32DCAD * L_6;
-		L_6 = Singleton_1_get_Instance_mD35EB580E2B48308B760D2036F88868844BD7052(/*hidden argument*/Singleton_1_get_Instance_mD35EB580E2B48308B760D2036F88868844BD7052_RuntimeMethod_var);
+		L_6 = Singleton_1_get_Instance_m65B1010186B7A8AC4D14D33F0ACBE1A9272D5035(/*hidden argument*/Singleton_1_get_Instance_m65B1010186B7A8AC4D14D33F0ACBE1A9272D5035_RuntimeMethod_var);
 		NullCheck(L_6);
 		OVRHand_tC05A35B82243C7F008BE75311F52746E27D1566A * L_7;
 		L_7 = DroneController_get_RightHand_m65CA1E341D453A746923A6A0C20F7E35AEB2AB3C_inline(L_6, /*hidden argument*/NULL);
@@ -49154,7 +49154,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DroneActionMapping_HandleCoreAction_m92A
 	}
 	{
 		Logger_t7A883ED908F6CC770EC675698C1A37CBD753667A * L_9;
-		L_9 = Singleton_1_get_Instance_m202F3E0E55A68FB2615A81B14A54E4F166588B4F(/*hidden argument*/Singleton_1_get_Instance_m202F3E0E55A68FB2615A81B14A54E4F166588B4F_RuntimeMethod_var);
+		L_9 = Singleton_1_get_Instance_m31ECA4642794F750803EDE264B482B1B0AEC3FA5(/*hidden argument*/Singleton_1_get_Instance_m31ECA4642794F750803EDE264B482B1B0AEC3FA5_RuntimeMethod_var);
 		NullCheck(L_9);
 		Logger_LogInfo_m5C96E52F8097935961203F7820AD94111D0792FF(L_9, _stringLiteralA4D48F42D84557EDB5F75A1EA79F6B06A0BDEBBC, /*hidden argument*/NULL);
 		return;
@@ -49170,7 +49170,7 @@ IL_0041:
 	}
 	{
 		DroneController_tFB53AA785BD95D3EB93804A1B28101EB2E32DCAD * L_11;
-		L_11 = Singleton_1_get_Instance_mD35EB580E2B48308B760D2036F88868844BD7052(/*hidden argument*/Singleton_1_get_Instance_mD35EB580E2B48308B760D2036F88868844BD7052_RuntimeMethod_var);
+		L_11 = Singleton_1_get_Instance_m65B1010186B7A8AC4D14D33F0ACBE1A9272D5035(/*hidden argument*/Singleton_1_get_Instance_m65B1010186B7A8AC4D14D33F0ACBE1A9272D5035_RuntimeMethod_var);
 		NullCheck(L_11);
 		OVRSkeleton_tE727DD0833515B8FCF6E7DE4BD16859BE26404EC * L_12;
 		L_12 = DroneController_get_RightHandSkeleton_m6C26C0E4310E9BC4A38F64F0C0456E0B2CA33AFA_inline(L_11, /*hidden argument*/NULL);
@@ -49181,7 +49181,7 @@ IL_0041:
 IL_0050:
 	{
 		DroneController_tFB53AA785BD95D3EB93804A1B28101EB2E32DCAD * L_13;
-		L_13 = Singleton_1_get_Instance_mD35EB580E2B48308B760D2036F88868844BD7052(/*hidden argument*/Singleton_1_get_Instance_mD35EB580E2B48308B760D2036F88868844BD7052_RuntimeMethod_var);
+		L_13 = Singleton_1_get_Instance_m65B1010186B7A8AC4D14D33F0ACBE1A9272D5035(/*hidden argument*/Singleton_1_get_Instance_m65B1010186B7A8AC4D14D33F0ACBE1A9272D5035_RuntimeMethod_var);
 		NullCheck(L_13);
 		OVRSkeleton_tE727DD0833515B8FCF6E7DE4BD16859BE26404EC * L_14;
 		L_14 = DroneController_get_LeftHandSkeleton_m9C4C499471E8E231C38108EC9838E42A1531EDCB_inline(L_13, /*hidden argument*/NULL);
@@ -49280,7 +49280,7 @@ IL_007f:
 	}
 	{
 		Logger_t7A883ED908F6CC770EC675698C1A37CBD753667A * L_39;
-		L_39 = Singleton_1_get_Instance_m202F3E0E55A68FB2615A81B14A54E4F166588B4F(/*hidden argument*/Singleton_1_get_Instance_m202F3E0E55A68FB2615A81B14A54E4F166588B4F_RuntimeMethod_var);
+		L_39 = Singleton_1_get_Instance_m31ECA4642794F750803EDE264B482B1B0AEC3FA5(/*hidden argument*/Singleton_1_get_Instance_m31ECA4642794F750803EDE264B482B1B0AEC3FA5_RuntimeMethod_var);
 		int32_t L_40 = ___hand0;
 		int32_t L_41 = L_40;
 		RuntimeObject * L_42 = Box(Hand_t1DDDE8E88FE43B0552E010F6755CA5AE5078EBD4_il2cpp_TypeInfo_var, &L_41);
@@ -49402,7 +49402,7 @@ IL_0143:
 	}
 	{
 		Logger_t7A883ED908F6CC770EC675698C1A37CBD753667A * L_79;
-		L_79 = Singleton_1_get_Instance_m202F3E0E55A68FB2615A81B14A54E4F166588B4F(/*hidden argument*/Singleton_1_get_Instance_m202F3E0E55A68FB2615A81B14A54E4F166588B4F_RuntimeMethod_var);
+		L_79 = Singleton_1_get_Instance_m31ECA4642794F750803EDE264B482B1B0AEC3FA5(/*hidden argument*/Singleton_1_get_Instance_m31ECA4642794F750803EDE264B482B1B0AEC3FA5_RuntimeMethod_var);
 		int32_t L_80 = ___hand0;
 		int32_t L_81 = L_80;
 		RuntimeObject * L_82 = Box(Hand_t1DDDE8E88FE43B0552E010F6755CA5AE5078EBD4_il2cpp_TypeInfo_var, &L_81);
@@ -49456,7 +49456,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DroneActionMapping_HandleDirection_m5B9F
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DroneRequest_tDF17E6459A5F9608633FD36E90EDEAA2A454D2F6_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OVRInput_t3C43263053F2510BDF75588657A71B87702767FB_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Single_tE07797BA3C98D4CA9B5A19413C19A76688AB899E_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Singleton_1_get_Instance_m6FF9C159B383C301CC4307D23FF71AE1524BA3AB_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Singleton_1_get_Instance_mFF230AA594EED17061F88A4684A33446CF8DFB9A_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8E752B76D455A50FE476984D4B09A7CDBF2A753E);
 		s_Il2CppMethodInitialized = true;
 	}
@@ -49504,7 +49504,7 @@ IL_001f:
 	{
 		*((int32_t*)G_B4_1) = (int32_t)G_B4_0;
 		DroneClient_tD1DCEB6EF9F62881A7644DF9412033F5B8D9FE66 * L_8;
-		L_8 = Singleton_1_get_Instance_m6FF9C159B383C301CC4307D23FF71AE1524BA3AB(/*hidden argument*/Singleton_1_get_Instance_m6FF9C159B383C301CC4307D23FF71AE1524BA3AB_RuntimeMethod_var);
+		L_8 = Singleton_1_get_Instance_mFF230AA594EED17061F88A4684A33446CF8DFB9A(/*hidden argument*/Singleton_1_get_Instance_mFF230AA594EED17061F88A4684A33446CF8DFB9A_RuntimeMethod_var);
 		DroneRequest_tDF17E6459A5F9608633FD36E90EDEAA2A454D2F6 * L_9 = (DroneRequest_tDF17E6459A5F9608633FD36E90EDEAA2A454D2F6 *)il2cpp_codegen_object_new(DroneRequest_tDF17E6459A5F9608633FD36E90EDEAA2A454D2F6_il2cpp_TypeInfo_var);
 		DroneRequest__ctor_m58F71258D63D63A842FEF5C995D45178CC535134(L_9, /*hidden argument*/NULL);
 		DroneRequest_tDF17E6459A5F9608633FD36E90EDEAA2A454D2F6 * L_10 = L_9;
@@ -49579,7 +49579,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DroneActionMapping__ctor_m9288B6609DEB7C
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_t4DE00340B884D30A444FDC5D2B9B2E1CC2C428CC_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_tA73E79E253C6707328AD4A880537404D9FEB1CC6_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_tFCE5C8DC50D317DAE8E43434AEC67C90370AF836_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Singleton_1__ctor_mC6A2AAAE8320FE72633003C96F2B272AF568C53A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Singleton_1__ctor_m4147548D23CEDFBE648FC5F416F8BCD9A9A219BC_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3C_ctorU3Eb__7_0_m305A1FB9CEC66849970630D175478F5EA2357F3C_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3C_ctorU3Eb__7_10_m13F3CF7610EEA5F96B30A52A8108F46A10AECD73_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3C_ctorU3Eb__7_11_mA0A065BE3B3C15A88318CA0529A2D33A0959EF3D_RuntimeMethod_var);
@@ -50460,7 +50460,7 @@ IL_02cb:
 		Dictionary_2_Add_m3D84CB6C00DF62959D76116BCA86FE4731B9DE9B(G_B36_2, G_B36_1, G_B36_0, /*hidden argument*/Dictionary_2_Add_m3D84CB6C00DF62959D76116BCA86FE4731B9DE9B_RuntimeMethod_var);
 		NullCheck(G_B36_4);
 		G_B36_4->set_HandsCoreActionInputBindings_7(G_B36_3);
-		Singleton_1__ctor_mC6A2AAAE8320FE72633003C96F2B272AF568C53A(__this, /*hidden argument*/Singleton_1__ctor_mC6A2AAAE8320FE72633003C96F2B272AF568C53A_RuntimeMethod_var);
+		Singleton_1__ctor_m4147548D23CEDFBE648FC5F416F8BCD9A9A219BC(__this, /*hidden argument*/Singleton_1__ctor_m4147548D23CEDFBE648FC5F416F8BCD9A9A219BC_RuntimeMethod_var);
 		return;
 	}
 }
@@ -50556,7 +50556,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DroneClient_Update_m0148804698BCD2E1CEC4
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Queue_1_Dequeue_m8E582C120D348CF28DEECA38CB63A609FD1BD9B7_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Queue_1_get_Count_mD7C8C22580B59BE7F224C7E5AC3C079592F54D58_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Singleton_1_get_Instance_m202F3E0E55A68FB2615A81B14A54E4F166588B4F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Singleton_1_get_Instance_m31ECA4642794F750803EDE264B482B1B0AEC3FA5_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	String_t* V_0 = NULL;
@@ -50579,7 +50579,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DroneClient_Update_m0148804698BCD2E1CEC4
 		L_3 = Queue_1_Dequeue_m8E582C120D348CF28DEECA38CB63A609FD1BD9B7(L_2, /*hidden argument*/Queue_1_Dequeue_m8E582C120D348CF28DEECA38CB63A609FD1BD9B7_RuntimeMethod_var);
 		V_0 = L_3;
 		Logger_t7A883ED908F6CC770EC675698C1A37CBD753667A * L_4;
-		L_4 = Singleton_1_get_Instance_m202F3E0E55A68FB2615A81B14A54E4F166588B4F(/*hidden argument*/Singleton_1_get_Instance_m202F3E0E55A68FB2615A81B14A54E4F166588B4F_RuntimeMethod_var);
+		L_4 = Singleton_1_get_Instance_m31ECA4642794F750803EDE264B482B1B0AEC3FA5(/*hidden argument*/Singleton_1_get_Instance_m31ECA4642794F750803EDE264B482B1B0AEC3FA5_RuntimeMethod_var);
 		String_t* L_5 = V_0;
 		NullCheck(L_4);
 		Logger_LogInfo_m5C96E52F8097935961203F7820AD94111D0792FF(L_4, L_5, /*hidden argument*/NULL);
@@ -51186,7 +51186,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DroneClient__ctor_m0BD67E3708D00696D4E37
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DroneStats_tD98EB3A4BFD02EAE3C12EA8DA2AAFA2AAC5A187C_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Queue_1__ctor_m3D79180EA2D2D7897016B383AA035A8B0AE08591_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Queue_1_tD2C03A5990B5958D85846D872A22AA67F3E8F97D_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Singleton_1__ctor_m0A6DB39D0035DC1868A647E833F64E2D44FAF03D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Singleton_1__ctor_m99A58CCC70A6D2A28F76E1B2563D3D8915FAA6A2_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral617FE2CA3C7BE5A516E390F613D9098763077F32);
 		s_Il2CppMethodInitialized = true;
 	}
@@ -51200,7 +51200,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DroneClient__ctor_m0BD67E3708D00696D4E37
 		Queue_1_tD2C03A5990B5958D85846D872A22AA67F3E8F97D * L_1 = (Queue_1_tD2C03A5990B5958D85846D872A22AA67F3E8F97D *)il2cpp_codegen_object_new(Queue_1_tD2C03A5990B5958D85846D872A22AA67F3E8F97D_il2cpp_TypeInfo_var);
 		Queue_1__ctor_m3D79180EA2D2D7897016B383AA035A8B0AE08591(L_1, /*hidden argument*/Queue_1__ctor_m3D79180EA2D2D7897016B383AA035A8B0AE08591_RuntimeMethod_var);
 		__this->set_U3CLogMessagesU3Ek__BackingField_15(L_1);
-		Singleton_1__ctor_m0A6DB39D0035DC1868A647E833F64E2D44FAF03D(__this, /*hidden argument*/Singleton_1__ctor_m0A6DB39D0035DC1868A647E833F64E2D44FAF03D_RuntimeMethod_var);
+		Singleton_1__ctor_m99A58CCC70A6D2A28F76E1B2563D3D8915FAA6A2(__this, /*hidden argument*/Singleton_1__ctor_m99A58CCC70A6D2A28F76E1B2563D3D8915FAA6A2_RuntimeMethod_var);
 		return;
 	}
 }
@@ -51293,7 +51293,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DroneController_Awake_mB230073909991D9D1
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisOVRSkeleton_tE727DD0833515B8FCF6E7DE4BD16859BE26404EC_mDA071F49B497F5BEA47FB7193E04836BAD026E1A_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DroneControllerType_t36F1FECD7BD4D9A43FEAC25A6B72F50488A149C7_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Singleton_1_get_Instance_m202F3E0E55A68FB2615A81B14A54E4F166588B4F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Singleton_1_get_Instance_m31ECA4642794F750803EDE264B482B1B0AEC3FA5_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralAB32E8A6FAE9A0C3F47523DD927FBC6CFBA3E377);
 		s_Il2CppMethodInitialized = true;
 	}
@@ -51309,7 +51309,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DroneController_Awake_mB230073909991D9D1
 		L_3 = Component_GetComponent_TisOVRSkeleton_tE727DD0833515B8FCF6E7DE4BD16859BE26404EC_mDA071F49B497F5BEA47FB7193E04836BAD026E1A(L_2, /*hidden argument*/Component_GetComponent_TisOVRSkeleton_tE727DD0833515B8FCF6E7DE4BD16859BE26404EC_mDA071F49B497F5BEA47FB7193E04836BAD026E1A_RuntimeMethod_var);
 		__this->set_rightHandSkeleton_9(L_3);
 		Logger_t7A883ED908F6CC770EC675698C1A37CBD753667A * L_4;
-		L_4 = Singleton_1_get_Instance_m202F3E0E55A68FB2615A81B14A54E4F166588B4F(/*hidden argument*/Singleton_1_get_Instance_m202F3E0E55A68FB2615A81B14A54E4F166588B4F_RuntimeMethod_var);
+		L_4 = Singleton_1_get_Instance_m31ECA4642794F750803EDE264B482B1B0AEC3FA5(/*hidden argument*/Singleton_1_get_Instance_m31ECA4642794F750803EDE264B482B1B0AEC3FA5_RuntimeMethod_var);
 		int32_t L_5 = __this->get_droneControllerType_5();
 		int32_t L_6 = L_5;
 		RuntimeObject * L_7 = Box(DroneControllerType_t36F1FECD7BD4D9A43FEAC25A6B72F50488A149C7_il2cpp_TypeInfo_var, &L_6);
@@ -51331,8 +51331,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DroneController_Update_m35BB04085338F867
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_get_Item_m1B077B446C50D8EA5D25BEB28FA834EA6E2891FF_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_get_Item_m1FAE4C07463AE011F457E9BD6D3A1AA1BC90DF6E_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_get_Item_m8D705F237EE1AC431529BE0715349ED97093D759_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Singleton_1_get_Instance_m6FF9C159B383C301CC4307D23FF71AE1524BA3AB_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Singleton_1_get_Instance_m7860FCF015A344EF630B027AC108617321B06911_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Singleton_1_get_Instance_mF15ECC962526230DD50865551B8CA002DB188804_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Singleton_1_get_Instance_mFF230AA594EED17061F88A4684A33446CF8DFB9A_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
@@ -51356,7 +51356,7 @@ IL_0009:
 	}
 	{
 		DroneActionMapping_t797C7A50A606D5728C1ECC4F949BA8F680F5C04C * L_2;
-		L_2 = Singleton_1_get_Instance_m7860FCF015A344EF630B027AC108617321B06911(/*hidden argument*/Singleton_1_get_Instance_m7860FCF015A344EF630B027AC108617321B06911_RuntimeMethod_var);
+		L_2 = Singleton_1_get_Instance_mF15ECC962526230DD50865551B8CA002DB188804(/*hidden argument*/Singleton_1_get_Instance_mF15ECC962526230DD50865551B8CA002DB188804_RuntimeMethod_var);
 		NullCheck(L_2);
 		Dictionary_2_tA73E79E253C6707328AD4A880537404D9FEB1CC6 * L_3 = L_2->get_ControllerCoreActionInputBindings_6();
 		NullCheck(L_3);
@@ -51365,7 +51365,7 @@ IL_0009:
 		NullCheck(L_4);
 		Action_Invoke_m3FFA5BE3D64F0FF8E1E1CB6F953913FADB5EB89E(L_4, /*hidden argument*/NULL);
 		DroneActionMapping_t797C7A50A606D5728C1ECC4F949BA8F680F5C04C * L_5;
-		L_5 = Singleton_1_get_Instance_m7860FCF015A344EF630B027AC108617321B06911(/*hidden argument*/Singleton_1_get_Instance_m7860FCF015A344EF630B027AC108617321B06911_RuntimeMethod_var);
+		L_5 = Singleton_1_get_Instance_mF15ECC962526230DD50865551B8CA002DB188804(/*hidden argument*/Singleton_1_get_Instance_mF15ECC962526230DD50865551B8CA002DB188804_RuntimeMethod_var);
 		NullCheck(L_5);
 		Dictionary_2_tA73E79E253C6707328AD4A880537404D9FEB1CC6 * L_6 = L_5->get_ControllerCoreActionInputBindings_6();
 		NullCheck(L_6);
@@ -51374,7 +51374,7 @@ IL_0009:
 		NullCheck(L_7);
 		Action_Invoke_m3FFA5BE3D64F0FF8E1E1CB6F953913FADB5EB89E(L_7, /*hidden argument*/NULL);
 		DroneClient_tD1DCEB6EF9F62881A7644DF9412033F5B8D9FE66 * L_8;
-		L_8 = Singleton_1_get_Instance_m6FF9C159B383C301CC4307D23FF71AE1524BA3AB(/*hidden argument*/Singleton_1_get_Instance_m6FF9C159B383C301CC4307D23FF71AE1524BA3AB_RuntimeMethod_var);
+		L_8 = Singleton_1_get_Instance_mFF230AA594EED17061F88A4684A33446CF8DFB9A(/*hidden argument*/Singleton_1_get_Instance_mFF230AA594EED17061F88A4684A33446CF8DFB9A_RuntimeMethod_var);
 		NullCheck(L_8);
 		bool L_9;
 		L_9 = DroneClient_get_SDKInitialized_mAD8637CB3A015387334642EB61EB5555A56FBB4F_inline(L_8, /*hidden argument*/NULL);
@@ -51390,7 +51390,7 @@ IL_0009:
 IL_004d:
 	{
 		DroneActionMapping_t797C7A50A606D5728C1ECC4F949BA8F680F5C04C * L_10;
-		L_10 = Singleton_1_get_Instance_m7860FCF015A344EF630B027AC108617321B06911(/*hidden argument*/Singleton_1_get_Instance_m7860FCF015A344EF630B027AC108617321B06911_RuntimeMethod_var);
+		L_10 = Singleton_1_get_Instance_mF15ECC962526230DD50865551B8CA002DB188804(/*hidden argument*/Singleton_1_get_Instance_mF15ECC962526230DD50865551B8CA002DB188804_RuntimeMethod_var);
 		NullCheck(L_10);
 		Dictionary_2_tA73E79E253C6707328AD4A880537404D9FEB1CC6 * L_11 = L_10->get_ControllerCoreActionInputBindings_6();
 		NullCheck(L_11);
@@ -51399,7 +51399,7 @@ IL_004d:
 		NullCheck(L_12);
 		Action_Invoke_m3FFA5BE3D64F0FF8E1E1CB6F953913FADB5EB89E(L_12, /*hidden argument*/NULL);
 		DroneActionMapping_t797C7A50A606D5728C1ECC4F949BA8F680F5C04C * L_13;
-		L_13 = Singleton_1_get_Instance_m7860FCF015A344EF630B027AC108617321B06911(/*hidden argument*/Singleton_1_get_Instance_m7860FCF015A344EF630B027AC108617321B06911_RuntimeMethod_var);
+		L_13 = Singleton_1_get_Instance_mF15ECC962526230DD50865551B8CA002DB188804(/*hidden argument*/Singleton_1_get_Instance_mF15ECC962526230DD50865551B8CA002DB188804_RuntimeMethod_var);
 		NullCheck(L_13);
 		Dictionary_2_tA73E79E253C6707328AD4A880537404D9FEB1CC6 * L_14 = L_13->get_ControllerCoreActionInputBindings_6();
 		NullCheck(L_14);
@@ -51408,7 +51408,7 @@ IL_004d:
 		NullCheck(L_15);
 		Action_Invoke_m3FFA5BE3D64F0FF8E1E1CB6F953913FADB5EB89E(L_15, /*hidden argument*/NULL);
 		DroneActionMapping_t797C7A50A606D5728C1ECC4F949BA8F680F5C04C * L_16;
-		L_16 = Singleton_1_get_Instance_m7860FCF015A344EF630B027AC108617321B06911(/*hidden argument*/Singleton_1_get_Instance_m7860FCF015A344EF630B027AC108617321B06911_RuntimeMethod_var);
+		L_16 = Singleton_1_get_Instance_mF15ECC962526230DD50865551B8CA002DB188804(/*hidden argument*/Singleton_1_get_Instance_mF15ECC962526230DD50865551B8CA002DB188804_RuntimeMethod_var);
 		NullCheck(L_16);
 		Dictionary_2_tA73E79E253C6707328AD4A880537404D9FEB1CC6 * L_17 = L_16->get_ControllerCoreActionInputBindings_6();
 		NullCheck(L_17);
@@ -51417,7 +51417,7 @@ IL_004d:
 		NullCheck(L_18);
 		Action_Invoke_m3FFA5BE3D64F0FF8E1E1CB6F953913FADB5EB89E(L_18, /*hidden argument*/NULL);
 		DroneActionMapping_t797C7A50A606D5728C1ECC4F949BA8F680F5C04C * L_19;
-		L_19 = Singleton_1_get_Instance_m7860FCF015A344EF630B027AC108617321B06911(/*hidden argument*/Singleton_1_get_Instance_m7860FCF015A344EF630B027AC108617321B06911_RuntimeMethod_var);
+		L_19 = Singleton_1_get_Instance_mF15ECC962526230DD50865551B8CA002DB188804(/*hidden argument*/Singleton_1_get_Instance_mF15ECC962526230DD50865551B8CA002DB188804_RuntimeMethod_var);
 		NullCheck(L_19);
 		Dictionary_2_t4DE00340B884D30A444FDC5D2B9B2E1CC2C428CC * L_20 = L_19->get_ControllersMovementInputBindings_5();
 		NullCheck(L_20);
@@ -51427,7 +51427,7 @@ IL_004d:
 		NullCheck(L_21);
 		ActionRef_1_Invoke_m986978ECEABA22AFC1D490A1085665780CC910F8(L_21, (int32_t*)L_22, /*hidden argument*/ActionRef_1_Invoke_m986978ECEABA22AFC1D490A1085665780CC910F8_RuntimeMethod_var);
 		DroneActionMapping_t797C7A50A606D5728C1ECC4F949BA8F680F5C04C * L_23;
-		L_23 = Singleton_1_get_Instance_m7860FCF015A344EF630B027AC108617321B06911(/*hidden argument*/Singleton_1_get_Instance_m7860FCF015A344EF630B027AC108617321B06911_RuntimeMethod_var);
+		L_23 = Singleton_1_get_Instance_mF15ECC962526230DD50865551B8CA002DB188804(/*hidden argument*/Singleton_1_get_Instance_mF15ECC962526230DD50865551B8CA002DB188804_RuntimeMethod_var);
 		NullCheck(L_23);
 		Dictionary_2_t4DE00340B884D30A444FDC5D2B9B2E1CC2C428CC * L_24 = L_23->get_ControllersMovementInputBindings_5();
 		NullCheck(L_24);
@@ -51437,7 +51437,7 @@ IL_004d:
 		NullCheck(L_25);
 		ActionRef_1_Invoke_m986978ECEABA22AFC1D490A1085665780CC910F8(L_25, (int32_t*)L_26, /*hidden argument*/ActionRef_1_Invoke_m986978ECEABA22AFC1D490A1085665780CC910F8_RuntimeMethod_var);
 		DroneActionMapping_t797C7A50A606D5728C1ECC4F949BA8F680F5C04C * L_27;
-		L_27 = Singleton_1_get_Instance_m7860FCF015A344EF630B027AC108617321B06911(/*hidden argument*/Singleton_1_get_Instance_m7860FCF015A344EF630B027AC108617321B06911_RuntimeMethod_var);
+		L_27 = Singleton_1_get_Instance_mF15ECC962526230DD50865551B8CA002DB188804(/*hidden argument*/Singleton_1_get_Instance_mF15ECC962526230DD50865551B8CA002DB188804_RuntimeMethod_var);
 		NullCheck(L_27);
 		Dictionary_2_t4DE00340B884D30A444FDC5D2B9B2E1CC2C428CC * L_28 = L_27->get_ControllersMovementInputBindings_5();
 		NullCheck(L_28);
@@ -51447,7 +51447,7 @@ IL_004d:
 		NullCheck(L_29);
 		ActionRef_1_Invoke_m986978ECEABA22AFC1D490A1085665780CC910F8(L_29, (int32_t*)L_30, /*hidden argument*/ActionRef_1_Invoke_m986978ECEABA22AFC1D490A1085665780CC910F8_RuntimeMethod_var);
 		DroneActionMapping_t797C7A50A606D5728C1ECC4F949BA8F680F5C04C * L_31;
-		L_31 = Singleton_1_get_Instance_m7860FCF015A344EF630B027AC108617321B06911(/*hidden argument*/Singleton_1_get_Instance_m7860FCF015A344EF630B027AC108617321B06911_RuntimeMethod_var);
+		L_31 = Singleton_1_get_Instance_mF15ECC962526230DD50865551B8CA002DB188804(/*hidden argument*/Singleton_1_get_Instance_mF15ECC962526230DD50865551B8CA002DB188804_RuntimeMethod_var);
 		NullCheck(L_31);
 		Dictionary_2_t4DE00340B884D30A444FDC5D2B9B2E1CC2C428CC * L_32 = L_31->get_ControllersMovementInputBindings_5();
 		NullCheck(L_32);
@@ -51457,7 +51457,7 @@ IL_004d:
 		NullCheck(L_33);
 		ActionRef_1_Invoke_m986978ECEABA22AFC1D490A1085665780CC910F8(L_33, (int32_t*)L_34, /*hidden argument*/ActionRef_1_Invoke_m986978ECEABA22AFC1D490A1085665780CC910F8_RuntimeMethod_var);
 		DroneActionMapping_t797C7A50A606D5728C1ECC4F949BA8F680F5C04C * L_35;
-		L_35 = Singleton_1_get_Instance_m7860FCF015A344EF630B027AC108617321B06911(/*hidden argument*/Singleton_1_get_Instance_m7860FCF015A344EF630B027AC108617321B06911_RuntimeMethod_var);
+		L_35 = Singleton_1_get_Instance_mF15ECC962526230DD50865551B8CA002DB188804(/*hidden argument*/Singleton_1_get_Instance_mF15ECC962526230DD50865551B8CA002DB188804_RuntimeMethod_var);
 		NullCheck(L_35);
 		Dictionary_2_t4DE00340B884D30A444FDC5D2B9B2E1CC2C428CC * L_36 = L_35->get_ControllersMovementInputBindings_5();
 		NullCheck(L_36);
@@ -51467,7 +51467,7 @@ IL_004d:
 		NullCheck(L_37);
 		ActionRef_1_Invoke_m986978ECEABA22AFC1D490A1085665780CC910F8(L_37, (int32_t*)L_38, /*hidden argument*/ActionRef_1_Invoke_m986978ECEABA22AFC1D490A1085665780CC910F8_RuntimeMethod_var);
 		DroneActionMapping_t797C7A50A606D5728C1ECC4F949BA8F680F5C04C * L_39;
-		L_39 = Singleton_1_get_Instance_m7860FCF015A344EF630B027AC108617321B06911(/*hidden argument*/Singleton_1_get_Instance_m7860FCF015A344EF630B027AC108617321B06911_RuntimeMethod_var);
+		L_39 = Singleton_1_get_Instance_mF15ECC962526230DD50865551B8CA002DB188804(/*hidden argument*/Singleton_1_get_Instance_mF15ECC962526230DD50865551B8CA002DB188804_RuntimeMethod_var);
 		NullCheck(L_39);
 		Dictionary_2_t4DE00340B884D30A444FDC5D2B9B2E1CC2C428CC * L_40 = L_39->get_ControllersMovementInputBindings_5();
 		NullCheck(L_40);
@@ -51477,7 +51477,7 @@ IL_004d:
 		NullCheck(L_41);
 		ActionRef_1_Invoke_m986978ECEABA22AFC1D490A1085665780CC910F8(L_41, (int32_t*)L_42, /*hidden argument*/ActionRef_1_Invoke_m986978ECEABA22AFC1D490A1085665780CC910F8_RuntimeMethod_var);
 		DroneActionMapping_t797C7A50A606D5728C1ECC4F949BA8F680F5C04C * L_43;
-		L_43 = Singleton_1_get_Instance_m7860FCF015A344EF630B027AC108617321B06911(/*hidden argument*/Singleton_1_get_Instance_m7860FCF015A344EF630B027AC108617321B06911_RuntimeMethod_var);
+		L_43 = Singleton_1_get_Instance_mF15ECC962526230DD50865551B8CA002DB188804(/*hidden argument*/Singleton_1_get_Instance_mF15ECC962526230DD50865551B8CA002DB188804_RuntimeMethod_var);
 		NullCheck(L_43);
 		Dictionary_2_t4DE00340B884D30A444FDC5D2B9B2E1CC2C428CC * L_44 = L_43->get_ControllersMovementInputBindings_5();
 		NullCheck(L_44);
@@ -51487,7 +51487,7 @@ IL_004d:
 		NullCheck(L_45);
 		ActionRef_1_Invoke_m986978ECEABA22AFC1D490A1085665780CC910F8(L_45, (int32_t*)L_46, /*hidden argument*/ActionRef_1_Invoke_m986978ECEABA22AFC1D490A1085665780CC910F8_RuntimeMethod_var);
 		DroneActionMapping_t797C7A50A606D5728C1ECC4F949BA8F680F5C04C * L_47;
-		L_47 = Singleton_1_get_Instance_m7860FCF015A344EF630B027AC108617321B06911(/*hidden argument*/Singleton_1_get_Instance_m7860FCF015A344EF630B027AC108617321B06911_RuntimeMethod_var);
+		L_47 = Singleton_1_get_Instance_mF15ECC962526230DD50865551B8CA002DB188804(/*hidden argument*/Singleton_1_get_Instance_mF15ECC962526230DD50865551B8CA002DB188804_RuntimeMethod_var);
 		NullCheck(L_47);
 		Dictionary_2_t4DE00340B884D30A444FDC5D2B9B2E1CC2C428CC * L_48 = L_47->get_ControllersMovementInputBindings_5();
 		NullCheck(L_48);
@@ -51509,7 +51509,7 @@ IL_0168:
 	}
 	{
 		DroneActionMapping_t797C7A50A606D5728C1ECC4F949BA8F680F5C04C * L_52;
-		L_52 = Singleton_1_get_Instance_m7860FCF015A344EF630B027AC108617321B06911(/*hidden argument*/Singleton_1_get_Instance_m7860FCF015A344EF630B027AC108617321B06911_RuntimeMethod_var);
+		L_52 = Singleton_1_get_Instance_mF15ECC962526230DD50865551B8CA002DB188804(/*hidden argument*/Singleton_1_get_Instance_mF15ECC962526230DD50865551B8CA002DB188804_RuntimeMethod_var);
 		NullCheck(L_52);
 		Dictionary_2_tFCE5C8DC50D317DAE8E43434AEC67C90370AF836 * L_53 = L_52->get_HandsCoreActionInputBindings_7();
 		NullCheck(L_53);
@@ -51519,7 +51519,7 @@ IL_0168:
 		NullCheck(L_54);
 		ActionRef_1_Invoke_m12AEC7D6AD69538EE8C563A590EF14A187AE2188(L_54, (bool*)L_55, /*hidden argument*/ActionRef_1_Invoke_m12AEC7D6AD69538EE8C563A590EF14A187AE2188_RuntimeMethod_var);
 		DroneActionMapping_t797C7A50A606D5728C1ECC4F949BA8F680F5C04C * L_56;
-		L_56 = Singleton_1_get_Instance_m7860FCF015A344EF630B027AC108617321B06911(/*hidden argument*/Singleton_1_get_Instance_m7860FCF015A344EF630B027AC108617321B06911_RuntimeMethod_var);
+		L_56 = Singleton_1_get_Instance_mF15ECC962526230DD50865551B8CA002DB188804(/*hidden argument*/Singleton_1_get_Instance_mF15ECC962526230DD50865551B8CA002DB188804_RuntimeMethod_var);
 		NullCheck(L_56);
 		Dictionary_2_tFCE5C8DC50D317DAE8E43434AEC67C90370AF836 * L_57 = L_56->get_HandsCoreActionInputBindings_7();
 		NullCheck(L_57);
@@ -51529,7 +51529,7 @@ IL_0168:
 		NullCheck(L_58);
 		ActionRef_1_Invoke_m12AEC7D6AD69538EE8C563A590EF14A187AE2188(L_58, (bool*)L_59, /*hidden argument*/ActionRef_1_Invoke_m12AEC7D6AD69538EE8C563A590EF14A187AE2188_RuntimeMethod_var);
 		DroneClient_tD1DCEB6EF9F62881A7644DF9412033F5B8D9FE66 * L_60;
-		L_60 = Singleton_1_get_Instance_m6FF9C159B383C301CC4307D23FF71AE1524BA3AB(/*hidden argument*/Singleton_1_get_Instance_m6FF9C159B383C301CC4307D23FF71AE1524BA3AB_RuntimeMethod_var);
+		L_60 = Singleton_1_get_Instance_mFF230AA594EED17061F88A4684A33446CF8DFB9A(/*hidden argument*/Singleton_1_get_Instance_mFF230AA594EED17061F88A4684A33446CF8DFB9A_RuntimeMethod_var);
 		NullCheck(L_60);
 		bool L_61;
 		L_61 = DroneClient_get_SDKInitialized_mAD8637CB3A015387334642EB61EB5555A56FBB4F_inline(L_60, /*hidden argument*/NULL);
@@ -51545,7 +51545,7 @@ IL_0168:
 IL_01b8:
 	{
 		DroneActionMapping_t797C7A50A606D5728C1ECC4F949BA8F680F5C04C * L_62;
-		L_62 = Singleton_1_get_Instance_m7860FCF015A344EF630B027AC108617321B06911(/*hidden argument*/Singleton_1_get_Instance_m7860FCF015A344EF630B027AC108617321B06911_RuntimeMethod_var);
+		L_62 = Singleton_1_get_Instance_mF15ECC962526230DD50865551B8CA002DB188804(/*hidden argument*/Singleton_1_get_Instance_mF15ECC962526230DD50865551B8CA002DB188804_RuntimeMethod_var);
 		NullCheck(L_62);
 		Dictionary_2_tFCE5C8DC50D317DAE8E43434AEC67C90370AF836 * L_63 = L_62->get_HandsCoreActionInputBindings_7();
 		NullCheck(L_63);
@@ -51555,7 +51555,7 @@ IL_01b8:
 		NullCheck(L_64);
 		ActionRef_1_Invoke_m12AEC7D6AD69538EE8C563A590EF14A187AE2188(L_64, (bool*)L_65, /*hidden argument*/ActionRef_1_Invoke_m12AEC7D6AD69538EE8C563A590EF14A187AE2188_RuntimeMethod_var);
 		DroneActionMapping_t797C7A50A606D5728C1ECC4F949BA8F680F5C04C * L_66;
-		L_66 = Singleton_1_get_Instance_m7860FCF015A344EF630B027AC108617321B06911(/*hidden argument*/Singleton_1_get_Instance_m7860FCF015A344EF630B027AC108617321B06911_RuntimeMethod_var);
+		L_66 = Singleton_1_get_Instance_mF15ECC962526230DD50865551B8CA002DB188804(/*hidden argument*/Singleton_1_get_Instance_mF15ECC962526230DD50865551B8CA002DB188804_RuntimeMethod_var);
 		NullCheck(L_66);
 		Dictionary_2_tFCE5C8DC50D317DAE8E43434AEC67C90370AF836 * L_67 = L_66->get_HandsCoreActionInputBindings_7();
 		NullCheck(L_67);
@@ -51565,7 +51565,7 @@ IL_01b8:
 		NullCheck(L_68);
 		ActionRef_1_Invoke_m12AEC7D6AD69538EE8C563A590EF14A187AE2188(L_68, (bool*)L_69, /*hidden argument*/ActionRef_1_Invoke_m12AEC7D6AD69538EE8C563A590EF14A187AE2188_RuntimeMethod_var);
 		DroneActionMapping_t797C7A50A606D5728C1ECC4F949BA8F680F5C04C * L_70;
-		L_70 = Singleton_1_get_Instance_m7860FCF015A344EF630B027AC108617321B06911(/*hidden argument*/Singleton_1_get_Instance_m7860FCF015A344EF630B027AC108617321B06911_RuntimeMethod_var);
+		L_70 = Singleton_1_get_Instance_mF15ECC962526230DD50865551B8CA002DB188804(/*hidden argument*/Singleton_1_get_Instance_mF15ECC962526230DD50865551B8CA002DB188804_RuntimeMethod_var);
 		NullCheck(L_70);
 		Dictionary_2_tFCE5C8DC50D317DAE8E43434AEC67C90370AF836 * L_71 = L_70->get_HandsCoreActionInputBindings_7();
 		NullCheck(L_71);
@@ -51587,11 +51587,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DroneController__ctor_mB7262CD17F39E9B3E
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Singleton_1__ctor_mF3588F5BC35793EEFC4903A4E3348F29C138B6CB_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Singleton_1__ctor_mCC575D27C9509A8E1B1421BB6D4F9F5242043AFB_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		Singleton_1__ctor_mF3588F5BC35793EEFC4903A4E3348F29C138B6CB(__this, /*hidden argument*/Singleton_1__ctor_mF3588F5BC35793EEFC4903A4E3348F29C138B6CB_RuntimeMethod_var);
+		Singleton_1__ctor_mCC575D27C9509A8E1B1421BB6D4F9F5242043AFB(__this, /*hidden argument*/Singleton_1__ctor_mCC575D27C9509A8E1B1421BB6D4F9F5242043AFB_RuntimeMethod_var);
 		return;
 	}
 }
@@ -51618,7 +51618,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DronePilotOverlay_Awake_m473FA93046A9F49
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tF2F3778131EFF286AF62B7B013A170F95A91571A_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Singleton_1_get_Instance_m202F3E0E55A68FB2615A81B14A54E4F166588B4F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Singleton_1_get_Instance_m31ECA4642794F750803EDE264B482B1B0AEC3FA5_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE3EDD451F2D5354ADB84A4526219F42022F385B0);
 		s_Il2CppMethodInitialized = true;
 	}
@@ -51634,7 +51634,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DronePilotOverlay_Awake_m473FA93046A9F49
 	}
 	{
 		Logger_t7A883ED908F6CC770EC675698C1A37CBD753667A * L_2;
-		L_2 = Singleton_1_get_Instance_m202F3E0E55A68FB2615A81B14A54E4F166588B4F(/*hidden argument*/Singleton_1_get_Instance_m202F3E0E55A68FB2615A81B14A54E4F166588B4F_RuntimeMethod_var);
+		L_2 = Singleton_1_get_Instance_m31ECA4642794F750803EDE264B482B1B0AEC3FA5(/*hidden argument*/Singleton_1_get_Instance_m31ECA4642794F750803EDE264B482B1B0AEC3FA5_RuntimeMethod_var);
 		NullCheck(L_2);
 		Logger_LogWarning_mC09EAA74295CA0CABCEE840ABEB4020601E3F4A5(L_2, _stringLiteralE3EDD451F2D5354ADB84A4526219F42022F385B0, /*hidden argument*/NULL);
 		__this->set_invalid_5((bool)1);
@@ -51698,56 +51698,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DronePilotOverlay__ctor_m34DFD37CD91F3CA
 {
 	{
 		MonoBehaviour__ctor_mC0995D847F6A95B1A553652636C38A2AA8B13BED(__this, /*hidden argument*/NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// DroneCommand DroneReponse::get_Command()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DroneReponse_get_Command_m48521AD34B1F75DA425C552E73147E0C2ACBF437 (DroneReponse_t5F58B27402A5900762136569D56E06C3981F07CC * __this, const RuntimeMethod* method)
-{
-	{
-		int32_t L_0 = __this->get_U3CCommandU3Ek__BackingField_0();
-		return L_0;
-	}
-}
-// System.Void DroneReponse::set_Command(DroneCommand)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DroneReponse_set_Command_m457C0EE06430A7ADE91301E044512ED4B27ACEF2 (DroneReponse_t5F58B27402A5900762136569D56E06C3981F07CC * __this, int32_t ___value0, const RuntimeMethod* method)
-{
-	{
-		int32_t L_0 = ___value0;
-		__this->set_U3CCommandU3Ek__BackingField_0(L_0);
-		return;
-	}
-}
-// System.String DroneReponse::get_Response()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* DroneReponse_get_Response_mA2549404377101370DAF6BEE804646174ED76423 (DroneReponse_t5F58B27402A5900762136569D56E06C3981F07CC * __this, const RuntimeMethod* method)
-{
-	{
-		String_t* L_0 = __this->get_U3CResponseU3Ek__BackingField_1();
-		return L_0;
-	}
-}
-// System.Void DroneReponse::set_Response(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DroneReponse_set_Response_m78B7D5A53541128FEAD02885C49247410CE65E01 (DroneReponse_t5F58B27402A5900762136569D56E06C3981F07CC * __this, String_t* ___value0, const RuntimeMethod* method)
-{
-	{
-		String_t* L_0 = ___value0;
-		__this->set_U3CResponseU3Ek__BackingField_1(L_0);
-		return;
-	}
-}
-// System.Void DroneReponse::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DroneReponse__ctor_m7E0F005DAAA132D8A017750EE2DB1576CA9A3C38 (DroneReponse_t5F58B27402A5900762136569D56E06C3981F07CC * __this, const RuntimeMethod* method)
-{
-	{
-		Object__ctor_m88880E0413421D13FD95325EDCE231707CE1F405(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -51882,6 +51832,56 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DroneRequest__ctor_m58F71258D63D63A842FE
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// DroneCommand DroneResponse::get_Command()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DroneResponse_get_Command_mE5FB390F6DDAC59D0E3948258FD822F03259E7D6 (DroneResponse_t4A3A44B9B0B02E3A4270903297CE39EE2BEA3B61 * __this, const RuntimeMethod* method)
+{
+	{
+		int32_t L_0 = __this->get_U3CCommandU3Ek__BackingField_0();
+		return L_0;
+	}
+}
+// System.Void DroneResponse::set_Command(DroneCommand)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DroneResponse_set_Command_mBA31BD39A3C76B7EE1A58EFD4EE39088D26ECA21 (DroneResponse_t4A3A44B9B0B02E3A4270903297CE39EE2BEA3B61 * __this, int32_t ___value0, const RuntimeMethod* method)
+{
+	{
+		int32_t L_0 = ___value0;
+		__this->set_U3CCommandU3Ek__BackingField_0(L_0);
+		return;
+	}
+}
+// System.String DroneResponse::get_Response()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* DroneResponse_get_Response_mFB5E7ACAFFD8323E3D0264AC93A0D4A90ECB5D13 (DroneResponse_t4A3A44B9B0B02E3A4270903297CE39EE2BEA3B61 * __this, const RuntimeMethod* method)
+{
+	{
+		String_t* L_0 = __this->get_U3CResponseU3Ek__BackingField_1();
+		return L_0;
+	}
+}
+// System.Void DroneResponse::set_Response(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DroneResponse_set_Response_m743250E7DA3F826DB39716425FBE17EA1BCA273B (DroneResponse_t4A3A44B9B0B02E3A4270903297CE39EE2BEA3B61 * __this, String_t* ___value0, const RuntimeMethod* method)
+{
+	{
+		String_t* L_0 = ___value0;
+		__this->set_U3CResponseU3Ek__BackingField_1(L_0);
+		return;
+	}
+}
+// System.Void DroneResponse::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DroneResponse__ctor_mCFA1CC5C1F754713497A987B3DAB0B194A8D9510 (DroneResponse_t4A3A44B9B0B02E3A4270903297CE39EE2BEA3B61 * __this, const RuntimeMethod* method)
+{
+	{
+		Object__ctor_m88880E0413421D13FD95325EDCE231707CE1F405(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -51927,12 +51927,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DroneStateManager_GetBattery_m8C8C36141C
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DroneRequest_tDF17E6459A5F9608633FD36E90EDEAA2A454D2F6_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Singleton_1_get_Instance_m6FF9C159B383C301CC4307D23FF71AE1524BA3AB_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Singleton_1_get_Instance_mFF230AA594EED17061F88A4684A33446CF8DFB9A_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
 		DroneClient_tD1DCEB6EF9F62881A7644DF9412033F5B8D9FE66 * L_0;
-		L_0 = Singleton_1_get_Instance_m6FF9C159B383C301CC4307D23FF71AE1524BA3AB(/*hidden argument*/Singleton_1_get_Instance_m6FF9C159B383C301CC4307D23FF71AE1524BA3AB_RuntimeMethod_var);
+		L_0 = Singleton_1_get_Instance_mFF230AA594EED17061F88A4684A33446CF8DFB9A(/*hidden argument*/Singleton_1_get_Instance_mFF230AA594EED17061F88A4684A33446CF8DFB9A_RuntimeMethod_var);
 		NullCheck(L_0);
 		bool L_1;
 		L_1 = DroneClient_get_SDKInitialized_mAD8637CB3A015387334642EB61EB5555A56FBB4F_inline(L_0, /*hidden argument*/NULL);
@@ -51943,7 +51943,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DroneStateManager_GetBattery_m8C8C36141C
 	}
 	{
 		DroneClient_tD1DCEB6EF9F62881A7644DF9412033F5B8D9FE66 * L_2;
-		L_2 = Singleton_1_get_Instance_m6FF9C159B383C301CC4307D23FF71AE1524BA3AB(/*hidden argument*/Singleton_1_get_Instance_m6FF9C159B383C301CC4307D23FF71AE1524BA3AB_RuntimeMethod_var);
+		L_2 = Singleton_1_get_Instance_mFF230AA594EED17061F88A4684A33446CF8DFB9A(/*hidden argument*/Singleton_1_get_Instance_mFF230AA594EED17061F88A4684A33446CF8DFB9A_RuntimeMethod_var);
 		DroneRequest_tDF17E6459A5F9608633FD36E90EDEAA2A454D2F6 * L_3 = (DroneRequest_tDF17E6459A5F9608633FD36E90EDEAA2A454D2F6 *)il2cpp_codegen_object_new(DroneRequest_tDF17E6459A5F9608633FD36E90EDEAA2A454D2F6_il2cpp_TypeInfo_var);
 		DroneRequest__ctor_m58F71258D63D63A842FEF5C995D45178CC535134(L_3, /*hidden argument*/NULL);
 		DroneRequest_tDF17E6459A5F9608633FD36E90EDEAA2A454D2F6 * L_4 = L_3;
@@ -51968,12 +51968,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DroneStateManager_GetSpeed_mDC0E17AC6E9A
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DroneRequest_tDF17E6459A5F9608633FD36E90EDEAA2A454D2F6_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Singleton_1_get_Instance_m6FF9C159B383C301CC4307D23FF71AE1524BA3AB_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Singleton_1_get_Instance_mFF230AA594EED17061F88A4684A33446CF8DFB9A_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
 		DroneClient_tD1DCEB6EF9F62881A7644DF9412033F5B8D9FE66 * L_0;
-		L_0 = Singleton_1_get_Instance_m6FF9C159B383C301CC4307D23FF71AE1524BA3AB(/*hidden argument*/Singleton_1_get_Instance_m6FF9C159B383C301CC4307D23FF71AE1524BA3AB_RuntimeMethod_var);
+		L_0 = Singleton_1_get_Instance_mFF230AA594EED17061F88A4684A33446CF8DFB9A(/*hidden argument*/Singleton_1_get_Instance_mFF230AA594EED17061F88A4684A33446CF8DFB9A_RuntimeMethod_var);
 		NullCheck(L_0);
 		bool L_1;
 		L_1 = DroneClient_get_SDKInitialized_mAD8637CB3A015387334642EB61EB5555A56FBB4F_inline(L_0, /*hidden argument*/NULL);
@@ -51984,7 +51984,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DroneStateManager_GetSpeed_mDC0E17AC6E9A
 	}
 	{
 		DroneClient_tD1DCEB6EF9F62881A7644DF9412033F5B8D9FE66 * L_2;
-		L_2 = Singleton_1_get_Instance_m6FF9C159B383C301CC4307D23FF71AE1524BA3AB(/*hidden argument*/Singleton_1_get_Instance_m6FF9C159B383C301CC4307D23FF71AE1524BA3AB_RuntimeMethod_var);
+		L_2 = Singleton_1_get_Instance_mFF230AA594EED17061F88A4684A33446CF8DFB9A(/*hidden argument*/Singleton_1_get_Instance_mFF230AA594EED17061F88A4684A33446CF8DFB9A_RuntimeMethod_var);
 		DroneRequest_tDF17E6459A5F9608633FD36E90EDEAA2A454D2F6 * L_3 = (DroneRequest_tDF17E6459A5F9608633FD36E90EDEAA2A454D2F6 *)il2cpp_codegen_object_new(DroneRequest_tDF17E6459A5F9608633FD36E90EDEAA2A454D2F6_il2cpp_TypeInfo_var);
 		DroneRequest__ctor_m58F71258D63D63A842FEF5C995D45178CC535134(L_3, /*hidden argument*/NULL);
 		DroneRequest_tDF17E6459A5F9608633FD36E90EDEAA2A454D2F6 * L_4 = L_3;
@@ -52009,12 +52009,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DroneStateManager_GetTemp_m38CFAF8E53D80
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DroneRequest_tDF17E6459A5F9608633FD36E90EDEAA2A454D2F6_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Singleton_1_get_Instance_m6FF9C159B383C301CC4307D23FF71AE1524BA3AB_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Singleton_1_get_Instance_mFF230AA594EED17061F88A4684A33446CF8DFB9A_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
 		DroneClient_tD1DCEB6EF9F62881A7644DF9412033F5B8D9FE66 * L_0;
-		L_0 = Singleton_1_get_Instance_m6FF9C159B383C301CC4307D23FF71AE1524BA3AB(/*hidden argument*/Singleton_1_get_Instance_m6FF9C159B383C301CC4307D23FF71AE1524BA3AB_RuntimeMethod_var);
+		L_0 = Singleton_1_get_Instance_mFF230AA594EED17061F88A4684A33446CF8DFB9A(/*hidden argument*/Singleton_1_get_Instance_mFF230AA594EED17061F88A4684A33446CF8DFB9A_RuntimeMethod_var);
 		NullCheck(L_0);
 		bool L_1;
 		L_1 = DroneClient_get_SDKInitialized_mAD8637CB3A015387334642EB61EB5555A56FBB4F_inline(L_0, /*hidden argument*/NULL);
@@ -52025,7 +52025,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DroneStateManager_GetTemp_m38CFAF8E53D80
 	}
 	{
 		DroneClient_tD1DCEB6EF9F62881A7644DF9412033F5B8D9FE66 * L_2;
-		L_2 = Singleton_1_get_Instance_m6FF9C159B383C301CC4307D23FF71AE1524BA3AB(/*hidden argument*/Singleton_1_get_Instance_m6FF9C159B383C301CC4307D23FF71AE1524BA3AB_RuntimeMethod_var);
+		L_2 = Singleton_1_get_Instance_mFF230AA594EED17061F88A4684A33446CF8DFB9A(/*hidden argument*/Singleton_1_get_Instance_mFF230AA594EED17061F88A4684A33446CF8DFB9A_RuntimeMethod_var);
 		DroneRequest_tDF17E6459A5F9608633FD36E90EDEAA2A454D2F6 * L_3 = (DroneRequest_tDF17E6459A5F9608633FD36E90EDEAA2A454D2F6 *)il2cpp_codegen_object_new(DroneRequest_tDF17E6459A5F9608633FD36E90EDEAA2A454D2F6_il2cpp_TypeInfo_var);
 		DroneRequest__ctor_m58F71258D63D63A842FEF5C995D45178CC535134(L_3, /*hidden argument*/NULL);
 		DroneRequest_tDF17E6459A5F9608633FD36E90EDEAA2A454D2F6 * L_4 = L_3;
@@ -52050,12 +52050,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DroneStateManager_GetTime_m5B9F12F66C855
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DroneRequest_tDF17E6459A5F9608633FD36E90EDEAA2A454D2F6_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Singleton_1_get_Instance_m6FF9C159B383C301CC4307D23FF71AE1524BA3AB_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Singleton_1_get_Instance_mFF230AA594EED17061F88A4684A33446CF8DFB9A_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
 		DroneClient_tD1DCEB6EF9F62881A7644DF9412033F5B8D9FE66 * L_0;
-		L_0 = Singleton_1_get_Instance_m6FF9C159B383C301CC4307D23FF71AE1524BA3AB(/*hidden argument*/Singleton_1_get_Instance_m6FF9C159B383C301CC4307D23FF71AE1524BA3AB_RuntimeMethod_var);
+		L_0 = Singleton_1_get_Instance_mFF230AA594EED17061F88A4684A33446CF8DFB9A(/*hidden argument*/Singleton_1_get_Instance_mFF230AA594EED17061F88A4684A33446CF8DFB9A_RuntimeMethod_var);
 		NullCheck(L_0);
 		bool L_1;
 		L_1 = DroneClient_get_SDKInitialized_mAD8637CB3A015387334642EB61EB5555A56FBB4F_inline(L_0, /*hidden argument*/NULL);
@@ -52066,7 +52066,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DroneStateManager_GetTime_m5B9F12F66C855
 	}
 	{
 		DroneClient_tD1DCEB6EF9F62881A7644DF9412033F5B8D9FE66 * L_2;
-		L_2 = Singleton_1_get_Instance_m6FF9C159B383C301CC4307D23FF71AE1524BA3AB(/*hidden argument*/Singleton_1_get_Instance_m6FF9C159B383C301CC4307D23FF71AE1524BA3AB_RuntimeMethod_var);
+		L_2 = Singleton_1_get_Instance_mFF230AA594EED17061F88A4684A33446CF8DFB9A(/*hidden argument*/Singleton_1_get_Instance_mFF230AA594EED17061F88A4684A33446CF8DFB9A_RuntimeMethod_var);
 		DroneRequest_tDF17E6459A5F9608633FD36E90EDEAA2A454D2F6 * L_3 = (DroneRequest_tDF17E6459A5F9608633FD36E90EDEAA2A454D2F6 *)il2cpp_codegen_object_new(DroneRequest_tDF17E6459A5F9608633FD36E90EDEAA2A454D2F6_il2cpp_TypeInfo_var);
 		DroneRequest__ctor_m58F71258D63D63A842FEF5C995D45178CC535134(L_3, /*hidden argument*/NULL);
 		DroneRequest_tDF17E6459A5F9608633FD36E90EDEAA2A454D2F6 * L_4 = L_3;
@@ -52091,12 +52091,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DroneStateManager_GetHeight_m730159C4942
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DroneRequest_tDF17E6459A5F9608633FD36E90EDEAA2A454D2F6_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Singleton_1_get_Instance_m6FF9C159B383C301CC4307D23FF71AE1524BA3AB_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Singleton_1_get_Instance_mFF230AA594EED17061F88A4684A33446CF8DFB9A_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
 		DroneClient_tD1DCEB6EF9F62881A7644DF9412033F5B8D9FE66 * L_0;
-		L_0 = Singleton_1_get_Instance_m6FF9C159B383C301CC4307D23FF71AE1524BA3AB(/*hidden argument*/Singleton_1_get_Instance_m6FF9C159B383C301CC4307D23FF71AE1524BA3AB_RuntimeMethod_var);
+		L_0 = Singleton_1_get_Instance_mFF230AA594EED17061F88A4684A33446CF8DFB9A(/*hidden argument*/Singleton_1_get_Instance_mFF230AA594EED17061F88A4684A33446CF8DFB9A_RuntimeMethod_var);
 		NullCheck(L_0);
 		bool L_1;
 		L_1 = DroneClient_get_SDKInitialized_mAD8637CB3A015387334642EB61EB5555A56FBB4F_inline(L_0, /*hidden argument*/NULL);
@@ -52107,7 +52107,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DroneStateManager_GetHeight_m730159C4942
 	}
 	{
 		DroneClient_tD1DCEB6EF9F62881A7644DF9412033F5B8D9FE66 * L_2;
-		L_2 = Singleton_1_get_Instance_m6FF9C159B383C301CC4307D23FF71AE1524BA3AB(/*hidden argument*/Singleton_1_get_Instance_m6FF9C159B383C301CC4307D23FF71AE1524BA3AB_RuntimeMethod_var);
+		L_2 = Singleton_1_get_Instance_mFF230AA594EED17061F88A4684A33446CF8DFB9A(/*hidden argument*/Singleton_1_get_Instance_mFF230AA594EED17061F88A4684A33446CF8DFB9A_RuntimeMethod_var);
 		DroneRequest_tDF17E6459A5F9608633FD36E90EDEAA2A454D2F6 * L_3 = (DroneRequest_tDF17E6459A5F9608633FD36E90EDEAA2A454D2F6 *)il2cpp_codegen_object_new(DroneRequest_tDF17E6459A5F9608633FD36E90EDEAA2A454D2F6_il2cpp_TypeInfo_var);
 		DroneRequest__ctor_m58F71258D63D63A842FEF5C995D45178CC535134(L_3, /*hidden argument*/NULL);
 		DroneRequest_tDF17E6459A5F9608633FD36E90EDEAA2A454D2F6 * L_4 = L_3;
@@ -52132,12 +52132,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DroneStateManager_GetAcceleration_mC3FDB
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DroneRequest_tDF17E6459A5F9608633FD36E90EDEAA2A454D2F6_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Singleton_1_get_Instance_m6FF9C159B383C301CC4307D23FF71AE1524BA3AB_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Singleton_1_get_Instance_mFF230AA594EED17061F88A4684A33446CF8DFB9A_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
 		DroneClient_tD1DCEB6EF9F62881A7644DF9412033F5B8D9FE66 * L_0;
-		L_0 = Singleton_1_get_Instance_m6FF9C159B383C301CC4307D23FF71AE1524BA3AB(/*hidden argument*/Singleton_1_get_Instance_m6FF9C159B383C301CC4307D23FF71AE1524BA3AB_RuntimeMethod_var);
+		L_0 = Singleton_1_get_Instance_mFF230AA594EED17061F88A4684A33446CF8DFB9A(/*hidden argument*/Singleton_1_get_Instance_mFF230AA594EED17061F88A4684A33446CF8DFB9A_RuntimeMethod_var);
 		NullCheck(L_0);
 		bool L_1;
 		L_1 = DroneClient_get_SDKInitialized_mAD8637CB3A015387334642EB61EB5555A56FBB4F_inline(L_0, /*hidden argument*/NULL);
@@ -52148,7 +52148,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DroneStateManager_GetAcceleration_mC3FDB
 	}
 	{
 		DroneClient_tD1DCEB6EF9F62881A7644DF9412033F5B8D9FE66 * L_2;
-		L_2 = Singleton_1_get_Instance_m6FF9C159B383C301CC4307D23FF71AE1524BA3AB(/*hidden argument*/Singleton_1_get_Instance_m6FF9C159B383C301CC4307D23FF71AE1524BA3AB_RuntimeMethod_var);
+		L_2 = Singleton_1_get_Instance_mFF230AA594EED17061F88A4684A33446CF8DFB9A(/*hidden argument*/Singleton_1_get_Instance_mFF230AA594EED17061F88A4684A33446CF8DFB9A_RuntimeMethod_var);
 		DroneRequest_tDF17E6459A5F9608633FD36E90EDEAA2A454D2F6 * L_3 = (DroneRequest_tDF17E6459A5F9608633FD36E90EDEAA2A454D2F6 *)il2cpp_codegen_object_new(DroneRequest_tDF17E6459A5F9608633FD36E90EDEAA2A454D2F6_il2cpp_TypeInfo_var);
 		DroneRequest__ctor_m58F71258D63D63A842FEF5C995D45178CC535134(L_3, /*hidden argument*/NULL);
 		DroneRequest_tDF17E6459A5F9608633FD36E90EDEAA2A454D2F6 * L_4 = L_3;
@@ -52173,12 +52173,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DroneStateManager_GetToF_m911FF6EA2638AA
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DroneRequest_tDF17E6459A5F9608633FD36E90EDEAA2A454D2F6_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Singleton_1_get_Instance_m6FF9C159B383C301CC4307D23FF71AE1524BA3AB_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Singleton_1_get_Instance_mFF230AA594EED17061F88A4684A33446CF8DFB9A_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
 		DroneClient_tD1DCEB6EF9F62881A7644DF9412033F5B8D9FE66 * L_0;
-		L_0 = Singleton_1_get_Instance_m6FF9C159B383C301CC4307D23FF71AE1524BA3AB(/*hidden argument*/Singleton_1_get_Instance_m6FF9C159B383C301CC4307D23FF71AE1524BA3AB_RuntimeMethod_var);
+		L_0 = Singleton_1_get_Instance_mFF230AA594EED17061F88A4684A33446CF8DFB9A(/*hidden argument*/Singleton_1_get_Instance_mFF230AA594EED17061F88A4684A33446CF8DFB9A_RuntimeMethod_var);
 		NullCheck(L_0);
 		bool L_1;
 		L_1 = DroneClient_get_SDKInitialized_mAD8637CB3A015387334642EB61EB5555A56FBB4F_inline(L_0, /*hidden argument*/NULL);
@@ -52189,7 +52189,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DroneStateManager_GetToF_m911FF6EA2638AA
 	}
 	{
 		DroneClient_tD1DCEB6EF9F62881A7644DF9412033F5B8D9FE66 * L_2;
-		L_2 = Singleton_1_get_Instance_m6FF9C159B383C301CC4307D23FF71AE1524BA3AB(/*hidden argument*/Singleton_1_get_Instance_m6FF9C159B383C301CC4307D23FF71AE1524BA3AB_RuntimeMethod_var);
+		L_2 = Singleton_1_get_Instance_mFF230AA594EED17061F88A4684A33446CF8DFB9A(/*hidden argument*/Singleton_1_get_Instance_mFF230AA594EED17061F88A4684A33446CF8DFB9A_RuntimeMethod_var);
 		DroneRequest_tDF17E6459A5F9608633FD36E90EDEAA2A454D2F6 * L_3 = (DroneRequest_tDF17E6459A5F9608633FD36E90EDEAA2A454D2F6 *)il2cpp_codegen_object_new(DroneRequest_tDF17E6459A5F9608633FD36E90EDEAA2A454D2F6_il2cpp_TypeInfo_var);
 		DroneRequest__ctor_m58F71258D63D63A842FEF5C995D45178CC535134(L_3, /*hidden argument*/NULL);
 		DroneRequest_tDF17E6459A5F9608633FD36E90EDEAA2A454D2F6 * L_4 = L_3;
@@ -52214,12 +52214,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DroneStateManager_GetBaro_m5E00F8C53E718
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DroneRequest_tDF17E6459A5F9608633FD36E90EDEAA2A454D2F6_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Singleton_1_get_Instance_m6FF9C159B383C301CC4307D23FF71AE1524BA3AB_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Singleton_1_get_Instance_mFF230AA594EED17061F88A4684A33446CF8DFB9A_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
 		DroneClient_tD1DCEB6EF9F62881A7644DF9412033F5B8D9FE66 * L_0;
-		L_0 = Singleton_1_get_Instance_m6FF9C159B383C301CC4307D23FF71AE1524BA3AB(/*hidden argument*/Singleton_1_get_Instance_m6FF9C159B383C301CC4307D23FF71AE1524BA3AB_RuntimeMethod_var);
+		L_0 = Singleton_1_get_Instance_mFF230AA594EED17061F88A4684A33446CF8DFB9A(/*hidden argument*/Singleton_1_get_Instance_mFF230AA594EED17061F88A4684A33446CF8DFB9A_RuntimeMethod_var);
 		NullCheck(L_0);
 		bool L_1;
 		L_1 = DroneClient_get_SDKInitialized_mAD8637CB3A015387334642EB61EB5555A56FBB4F_inline(L_0, /*hidden argument*/NULL);
@@ -52230,7 +52230,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DroneStateManager_GetBaro_m5E00F8C53E718
 	}
 	{
 		DroneClient_tD1DCEB6EF9F62881A7644DF9412033F5B8D9FE66 * L_2;
-		L_2 = Singleton_1_get_Instance_m6FF9C159B383C301CC4307D23FF71AE1524BA3AB(/*hidden argument*/Singleton_1_get_Instance_m6FF9C159B383C301CC4307D23FF71AE1524BA3AB_RuntimeMethod_var);
+		L_2 = Singleton_1_get_Instance_mFF230AA594EED17061F88A4684A33446CF8DFB9A(/*hidden argument*/Singleton_1_get_Instance_mFF230AA594EED17061F88A4684A33446CF8DFB9A_RuntimeMethod_var);
 		DroneRequest_tDF17E6459A5F9608633FD36E90EDEAA2A454D2F6 * L_3 = (DroneRequest_tDF17E6459A5F9608633FD36E90EDEAA2A454D2F6 *)il2cpp_codegen_object_new(DroneRequest_tDF17E6459A5F9608633FD36E90EDEAA2A454D2F6_il2cpp_TypeInfo_var);
 		DroneRequest__ctor_m58F71258D63D63A842FEF5C995D45178CC535134(L_3, /*hidden argument*/NULL);
 		DroneRequest_tDF17E6459A5F9608633FD36E90EDEAA2A454D2F6 * L_4 = L_3;
@@ -52254,12 +52254,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DroneStateManager__ctor_mF34FF2EAAE7764D
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Singleton_1__ctor_m83E69EA40469ED58725343AB095633974897BC09_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Singleton_1__ctor_m7B28942322081317664C88CCFEA5473B581952CB_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
 		__this->set_updateFrequency_5((1.0f));
-		Singleton_1__ctor_m83E69EA40469ED58725343AB095633974897BC09(__this, /*hidden argument*/Singleton_1__ctor_m83E69EA40469ED58725343AB095633974897BC09_RuntimeMethod_var);
+		Singleton_1__ctor_m7B28942322081317664C88CCFEA5473B581952CB(__this, /*hidden argument*/Singleton_1__ctor_m7B28942322081317664C88CCFEA5473B581952CB_RuntimeMethod_var);
 		return;
 	}
 }

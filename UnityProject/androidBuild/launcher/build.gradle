@@ -18,7 +18,7 @@ android {
     defaultConfig {
         minSdkVersion 24
         targetSdkVersion 30
-        applicationId 'com.PrometheonTechnologies.OculusAnafiFPV'
+        applicationId 'com.prometheontechnologies.oculusquestanafifpv'
         ndk {
             abiFilters 
         }
